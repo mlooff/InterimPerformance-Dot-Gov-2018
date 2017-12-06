@@ -970,7 +970,7 @@ button.usa-button-secondary.usa-button-hover,
 [type=reset].usa-button-secondary.usa-button-hover,
 [type=image].usa-button-secondary:hover,
 [type=image].usa-button-secondary.usa-button-hover {
-  background-color: #cd2026;
+  background-color: #112e51;
 }
 
 .usa-button.usa-button-secondary:active, .usa-button.usa-button-secondary.usa-button-active,
@@ -4316,7 +4316,7 @@ input.usa-input-medium {
 }
 
 .usa-section-dark {
-  background-color: #212121;
+  background-color: #cd2026;
   color: #ffffff;
 }
 
