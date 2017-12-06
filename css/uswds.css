@@ -3508,6 +3508,49 @@ input.usa-input-medium {
   display: block;
 }
 
+.usa-hero-2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url("../img/homepage_images/newhero1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.usa-hero-2 .usa-button {
+  color: #ffffff;
+}
+
+.usa-section-dark .usa-hero-link-2 {
+  color: #02bfe7;
+}
+
+.usa-hero-callout-2 {
+  background-color: #112e51;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 481px) {
+  .usa-hero-callout-2 {
+    max-width: 30rem;
+  }
+}
+
+.usa-hero-callout-2 > *:first-child {
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.usa-hero-callout-2 .usa-button {
+  font-size: 1.4rem;
+  margin-top: 7rem;
+  width: 100%;
+}
+
+.usa-hero-callout-alt-2 {
+  color: #ffffff;
+  display: block;
+}
+
 .usa-layout-docs {
   display: -webkit-box;
   display: -ms-flexbox;
