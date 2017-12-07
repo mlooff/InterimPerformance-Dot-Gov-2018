@@ -884,7 +884,7 @@ button.usa-button-active,
 [type=reset].usa-button-active,
 [type=image]:active,
 [type=image].usa-button-active {
-  background-color: #112e51;
+  background-color: #02bfe7;
 }
 
 .usa-button.usa-button-primary-alt,
@@ -897,7 +897,7 @@ button.usa-button-primary-alt,
 [type=reset].usa-button-primary-alt,
 [type=image].usa-button-primary-alt {
   background-color: #02bfe7;
-  color: #212121;
+  color: #112e51;
 }
 
 .usa-button.usa-button-primary-alt:hover, .usa-button.usa-button-primary-alt.usa-button-hover,
@@ -950,7 +950,7 @@ button.usa-button-secondary,
 [type=submit].usa-button-secondary,
 [type=reset].usa-button-secondary,
 [type=image].usa-button-secondary {
-  background-color: #e31c3d;
+  background-color: #046b99;
 }
 
 .usa-button.usa-button-secondary:hover, .usa-button.usa-button-secondary.usa-button-hover,
@@ -970,7 +970,7 @@ button.usa-button-secondary.usa-button-hover,
 [type=reset].usa-button-secondary.usa-button-hover,
 [type=image].usa-button-secondary:hover,
 [type=image].usa-button-secondary.usa-button-hover {
-  background-color: #112e51;
+  background-color: #00a6d2;
 }
 
 .usa-button.usa-button-secondary:active, .usa-button.usa-button-secondary.usa-button-active,
