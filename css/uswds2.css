@@ -2062,7 +2062,7 @@ dfn {
   background-position: right 3rem center;
   background-repeat: no-repeat;
   background-size: 13px;
-  color: #cd2026;
+  color: #212121;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -2113,7 +2113,7 @@ dfn {
 
 .usa-accordion > li,
 .usa-accordion-bordered > li {
-  background-color: #cd2026;
+  background-color: #f1f1f1;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
@@ -2165,7 +2165,7 @@ dfn {
   background-position: right 3rem center;
   background-repeat: no-repeat;
   background-size: 13px;
-  color: #ffffff;
+  color: #212121;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -2180,12 +2180,12 @@ dfn {
 }
 
 .usa-accordion-button:focus {
-  box-shadow: 0 0 3px #3e94cf, 0 0 7px #cd2026;
+  box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
 }
 
 .usa-accordion-button:hover {
-  background-color: #cd2026;
-  color: #cd2026;
+  background-color: #d6d7d9;
+  color: #212121;
 }
 
 .usa-accordion-button h1,
