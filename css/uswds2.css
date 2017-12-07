@@ -2159,13 +2159,13 @@ dfn {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #f1f1f1;
+  background-color: #cd2026;
   background-image: url("../img/minus.png");
   background-image: url("../img/minus.svg");
   background-position: right 3rem center;
   background-repeat: no-repeat;
   background-size: 13px;
-  color: #212121;
+  color: #fffff;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
