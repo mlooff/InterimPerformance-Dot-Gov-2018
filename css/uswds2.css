@@ -2159,7 +2159,7 @@ dfn {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #cd2026;
+  background-color: #e31c3d;
   background-image: url("../img/minus.png");
   background-image: url("../img/minus.svg");
   background-position: right 3rem center;
@@ -4316,7 +4316,7 @@ input.usa-input-medium {
 }
 
 .usa-section-dark {
-  background-color: #cd2026;
+  background-color: #e31c3d;
   color: #ffffff;
 }
 
