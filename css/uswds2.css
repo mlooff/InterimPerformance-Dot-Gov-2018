@@ -937,8 +937,8 @@ button.usa-button-primary-alt.usa-button-active,
 [type=reset].usa-button-primary-alt.usa-button-active,
 [type=image].usa-button-primary-alt:active,
 [type=image].usa-button-primary-alt.usa-button-active {
-  background-color: #046b99;
-  color: #ffffff;
+  background-color: #fffff;
+  color: #205493;
 }
 
 .usa-button.usa-button-secondary,
@@ -950,7 +950,7 @@ button.usa-button-secondary,
 [type=submit].usa-button-secondary,
 [type=reset].usa-button-secondary,
 [type=image].usa-button-secondary {
-  background-color: #046b99;
+  background-color: #fffff;
 }
 
 .usa-button.usa-button-secondary:hover, .usa-button.usa-button-secondary.usa-button-hover,
@@ -2159,7 +2159,7 @@ dfn {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #cd2026;
+  background-color: #0071bc;
   background-image: url("../img/minus.png");
   background-image: url("../img/minus.svg");
   background-position: right 3rem center;
@@ -2184,7 +2184,7 @@ dfn {
 }
 
 .usa-accordion-button:hover {
-  background-color: #046b99;
+  background-color: #112e51;
   color: #ffffff;
 }
 
@@ -3482,8 +3482,9 @@ input.usa-input-medium {
 }
 
 .usa-hero-callout {
-  background-color: #112e51;
+  background-color: #5b616b;
   padding: 3rem;
+  width: 400px;
 }
 
 @media screen and (min-width: 481px) {
@@ -4316,7 +4317,7 @@ input.usa-input-medium {
 }
 
 .usa-section-dark {
-  background-color: #cd2026;
+  background-color: #5b616b;
   color: #ffffff;
 }
 

@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Performance.gov | President's Managemnet Agenda</title>
-    <!-- Update the link path to where your stylesheet file is located. For example: /path/to/yourcss/lib/uswds.min.css -->
+    <!-- Update the link path to where your stylesheet file is located. For example: /path/to/your/assets/css/lib/uswds.min.css -->
     <link rel="stylesheet" href="../css/uswds2.css">
   </head>
   <body class="layout-demo">
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
-  <header class="usa-header usa-header-extended" role="banner">
-    <!-- Gov banner BEGIN -->
+  <header class="usa-header usa-header-basic" role="banner">
+   <!-- Gov banner BEGIN -->
     <div class="usa-banner">
       <div class="usa-accordion">
         <header class="usa-banner-header">
@@ -46,42 +46,46 @@
       </div>
     </div>
     <!-- Gov banner END -->
-  <div class="usa-navbar">
-      <button class="usa-menu-btn">Menu</button>
-      <div class="usa-logo" id="logo">
-        <em class="usa-logo-text">
-     <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
-        </em>
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <button class="usa-menu-btn">Menu</button>
+        <div class="usa-logo" id="logo">
+          <em class="usa-logo-text">
+            <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
+          </em>
+        </div>
       </div>
-    </div>
-    <nav role="navigation" class="usa-nav">
-      <div class="usa-nav-inner">
-        <button class="usa-nav-close">
-          <img src="img/close.svg" alt="close">
+      <nav role="navigation" class="usa-nav">
+         <button class="usa-nav-close">
+          <img src="/assets/img/close.svg" alt="close">
         </button>
         <ul class="usa-nav-primary usa-accordion">
-  
           <li>
-            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-1">
-              <span>PMA</span>
+            <a class="usa-nav-link" href="../index.html">
+              <span>Home</span>
+            </a>
+          </li>
+         
+          <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+          <span>PMA</span>
             </button>
-            <ul id="sidenav-1" class="usa-nav-submenu">
+            <ul id="sidenav-2" class="usa-nav-submenu">
               <li>
-                <a href="PMA.html">Overview</a>
+                <a href="#">Overview</a>
               </li>
-              <li>
+                        <li>
                 <a href="#">CAP Goal 1</a>
               </li>
-            </ul>
+           </ul>
           </li>
-         <li>
-          <li>
+           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="megamenu-1"
               <span>Agencies</span>
             </button>
             <ul class="usa-nav-submenu usa-megamenu usa-grid-full" id="megamenu-1">
             <li class="usa-megamenu-col">
-                        <ul>
+              <ul>
                 <li>
                   <a href="../agriculture/agriculture.html">Department of Agriculture</a>
                 </li>
@@ -179,139 +183,80 @@
              </ul>
           </li>
         </ul>
-   <div class="usa-nav-secondary">
-          <form class="usa-search usa-search-small js-search-form">
-            <div role="search">
-              <form class="usa-search usa-search-small">
-              <label class="usa-sr-only" for="search-field-small">Search small</label>
-              <input id="search-field-small" type="search" name="search">
-              <button type="submit">
-                <span class="usa-sr-only">Search</span>
-              </button>
-            </div>
-          </form>
-          <ul class="usa-unstyled-list usa-nav-secondary-links">
-            <li class="js-search-button-container">
-              <button class="usa-header-search-button js-search-button">Search</button>
-            </form>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+        <form class="usa-search usa-search-small">
+          <div role="search">
+            <label class="usa-sr-only" for="search-field-small">Search small</label>
+            <input id="search-field-small" type="search" name="search">
+            <button type="submit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+       </nav>
+    </div>
   </header>
-  </header>
+
   <div class="usa-overlay"></div>
   <main id="main-content">
     <section class="usa-hero">
       <div class="usa-grid">
         <div class="usa-hero-callout usa-section-dark">
           <h2><span class="usa-hero-callout-alt"></span> President's Management Agenda</h2>
-             </div>
+      <!--    <a class="usa-hero-link" href="#">Link to and example APG</a>  -->
+          <a class="usa-button usa-button-big usa-button-secondary" href="../meganlooff.github.io/PMA/PMA.html">Read more about the PMA below.</a>
+        </div>
       </div>
     </section>
     <section class="usa-grid usa-section">
       <div class="usa-width-one-third">
-        <h2>Overview & Mission</h2>
+        <h2>Overview & Mission </h2>
       </div>
       <div class="usa-width-two-thirds">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <!-- <p>Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.</p> -->
       </div>
     </section>
- 
-      
-
-  <section class="usa-section usa-section-dark usa-graphic_list">
+    <section class="usa-section usa-section-dark usa-graphic_list">
       <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
+          <img class="usa-media_block-img" src="../img/homepage_images/436043_original.png" alt="Alt text">
           <div class="usa-media_block-body">
-              <a href="PMA/PMA.html" style="text-decoration: none"><h3>Preventing Improper Payments</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+              <a href="PMA/PMA.html" style="text-decoration: none"><h3>Learn more about the Agenda</h3></a>
+            <p>The President’s Management Agenda (PMA) is the President’s strategy for improving the management and performance of the federal government.</p>
           </div>
         </div>
         <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
+          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text">
           <div class="usa-media_block-body">
-  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Category Management</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="usa-grid usa-graphic_list-row">
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-              <a href="PMA/PMA.html" style="text-decoration: none"><h3>Federal Evaluation Framework</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.<p>
-          </div>
-        </div>
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Connecting Public Financial/Performance Data</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          </div>
-        </div>
-      </div>
-       <div class="usa-grid usa-graphic_list-row">
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-              <a href="PMA/PMA.html" style="text-decoration: none"><h3>Burden Reduction</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          </div>
-        </div>
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Improving Federal Cyber Security</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          </div>
-        </div>
-      </div>
-       <div class="usa-grid usa-graphic_list-row">
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-              <a href="PMA/PMA.html" style="text-decoration: none"><h3>IT Modernization</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.<p>
-          </div>
-        </div>
-        <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Mission Support Services</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
-          </div>
-        </div>
-      </div>
-    <div class="usa-grid usa-graphic_list-row">
-     <div class="usa-width-one-half usa-media_block">
-          <img class="usa-media_block-img" src="../img/homepage_images/target_icon.png" alt="Alt text" width="80">
-          <div class="usa-media_block-body">
-  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Personnel Vetting Reform</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.</p>
+  <a href="PMA/framework.html" style="text-decoration: none"> <h3>Other useful links and resources</h3></a>
+            <p>Sample link</p>
+            <p>Sample Link</p>
+            <p>Sample Link </p>
           </div>
         </div>
       </div>
     </section>
-       <section class="usa-grid usa-section">
-      <div class="usa-width-one-third">
-        <h2>Other Useful Links and<br /> Resources</h2>
-      </div>
-      <div class="usa-width-two-thirds">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure. </p>
-   <p><a class="usa-external_link" target="_blank" href="#/">Sample Link 1</a>.</p>
-      <p><a class="usa-external_link" target="_blank" href="#">Sample Link 2</a>.</p>
-      <p><a class="usa-external_link" target="_blank" href="#">Sample Link 3</a>.</p>
-        <!-- <p>Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.</p> -->
+    <section class="usa-section">
+      <div class="usa-grid">
+       <h3> Preventing Improper Payments</h3>
+        <p class="usa-font-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </section>
-    </main> 
+    <section class="usa-section">
+      <div class="usa-grid">
+        <h3>Category Management</h3>
+        <p class="usa-font-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+    </section>
+    <section class="usa-section">
+      <div class="usa-grid">
+                           <h3>Federal Evaluation Framework</h3>
+        <p class="usa-font-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        
+      </div>
+    </section>
+  </main>
   <footer class="usa-footer usa-footer-big" role="contentinfo">
   <div class="usa-grid usa-footer-return-to-top">
     <a href="#">Return to top</a>
@@ -357,8 +302,10 @@
 <!--
       <div class="usa-sign_up-block usa-width-one-third">
         <h3 class="usa-sign_up-header">Subscribe for updates</h3>
+
         <label class="" for="email" id="">Your email address</label>
         <input id="email" name="email" type="email">
+
         <button type="submit">Sign up</button>
       </div> -->
     </div>
