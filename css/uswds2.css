@@ -3466,11 +3466,11 @@ input.usa-input-medium {
 }
 
 .usa-hero {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-image: url("../img/homepage_images/newhero3.jpg");
   background-position: center;
-  background-size: 1500px;
+  background-size: cover;
 }
 
 .usa-hero .usa-button {
