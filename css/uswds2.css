@@ -3474,6 +3474,8 @@ input.usa-input-medium {
   background-image: url("../img/homepage_images/newhero3.jpg");
   background-position: center;
   background-size: cover;
+  background-color: #112e51;
+  opacity: 0.5;
 }
 
 .usa-hero .usa-button {
