@@ -3480,9 +3480,6 @@ input.usa-input-medium {
 .layer {
     background-color: rgba(0, 113, 188, 0.7);
     position: absolute;
-    top: 0;
-    left: 0;
-
 }
 
 .usa-hero .usa-button {
