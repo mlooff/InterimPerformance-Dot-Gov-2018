@@ -1785,8 +1785,8 @@ h6 {
 h1 {
   font-size: 4rem;
   font-weight: 700;
-	color: 0071bc;
-	float: center;
+	font-color: #0071bc;
+	text-align: center;
 }
 
 h2 {
