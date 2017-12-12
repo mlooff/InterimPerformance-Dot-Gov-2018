@@ -1784,6 +1784,8 @@ h6 {
 h1 {
   font-size: 4rem;
   font-weight: 700;
+	color: 0071bc;
+	float: center;
 }
 
 h2 {
@@ -3466,8 +3468,8 @@ input.usa-input-medium {
 }
 
 .usa-hero {
-  padding-top: 17rem;
-  padding-bottom: 17rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
   background-image: url("../img/homepage_images/newhero3.jpg");
   background-position: center;
   background-size: cover;
