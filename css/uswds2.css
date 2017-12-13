@@ -3194,6 +3194,8 @@ input.usa-input-medium {
 
 .usa-graphic_list .usa-graphic_list-row .usa-media_block {
   margin-bottom: 3rem;
+	 text-align: center;
+	
 }
 
 @media screen and (min-width: 600px) {
