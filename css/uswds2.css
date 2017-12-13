@@ -3193,13 +3193,13 @@ input.usa-input-medium {
 }
 
 .usa-graphic_list .usa-graphic_list-row .usa-media_block {
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 	
 }
 
 @media screen and (min-width: 600px) {
   .usa-graphic_list .usa-graphic_list-row .usa-media_block {
-    margin-bottom: 6rem;
+    margin-bottom: 0rem;
   }
 }
 
@@ -3214,7 +3214,7 @@ input.usa-input-medium {
 }
 
 .usa-graphic_list .usa-media_block-img {
-  margin-right: 3rem;
+  margin-right: 0rem;
 }
 
 .usa-graphic_list .usa-media_block-body > :first-child {
