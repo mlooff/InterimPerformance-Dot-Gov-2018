@@ -3212,7 +3212,8 @@ input.usa-input-medium {
 }
 
 .usa-graphic_list .usa-media_block-img {
-  margin-right: 5rem;
+  margin-right: 3rem;
+	align: center;
 }
 
 .usa-graphic_list .usa-media_block-body > :first-child {
