@@ -1771,7 +1771,6 @@ a:focus {
 
 h1,
 h2,
-h2.5,
 h3,
 h4,
 h5,
@@ -1795,14 +1794,8 @@ h2 {
   font-weight: 700;
 }
 
-h2.5 {
-  font-size: 2.5rem;
-  font-weight: 700;
-	text-align: center;
-}
-
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
