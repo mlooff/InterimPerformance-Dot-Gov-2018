@@ -3218,7 +3218,17 @@ input.usa-input-medium {
 }
 
 .usa-graphic_list .usa-media_block-body > :first-child {
-  margin 3rem;
+  margin-top: 0rem;
+		
+}
+
+.usa-graphic_list .usa-media_block-body 
+  margin-top: 0rem;
+	 padding-top:0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+
 	
 }
 
