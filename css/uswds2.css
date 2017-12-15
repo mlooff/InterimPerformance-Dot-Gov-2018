@@ -1795,8 +1795,9 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
+	text-align: center;
 }
 
 h4 {
@@ -3213,10 +3214,22 @@ input.usa-input-medium {
 
 .usa-graphic_list .usa-media_block-img {
   margin-right: 3rem;
+	align: center;
 }
 
 .usa-graphic_list .usa-media_block-body > :first-child {
-  margin-top: 0;
+  margin-top: 3rem;
+		
+}
+
+.usa-graphic_list .usa-media_block-body 
+  margin-top: 0rem;
+	 padding-top:40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+	
 }
 
 .usa-header {
@@ -3469,9 +3482,9 @@ input.usa-input-medium {
 }
 
 .usa-hero {
-  padding-top: 20rem;
-  padding-bottom: 20rem;
-  background-image: url("../img/homepage_images/NewHero_02bfe7.png");
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-image: url("../img/homepage_images/newhero_112e51_1.png");
   background-position: center;
   background-size: cover;
 	
@@ -4323,12 +4336,17 @@ input.usa-input-medium {
   }
 }
 
+.usa-section-other {
+  background-color: #112e51;
+	color: #ffffff;
+}
+
 .usa-section-light {
-  background-color: #f1f1f1;
+  background-color: #e1f3f8;
 }
 
 .usa-section-dark {
-  background-color: #5b616b;
+  background-color: #046b99;
   color: #ffffff;
 }
 
