@@ -4336,6 +4336,11 @@ input.usa-input-medium {
   }
 }
 
+.usa-section-other {
+  background-color: #112e51;
+	color: #ffffff;
+}
+
 .usa-section-light {
   background-color: #e1f3f8;
 }
