@@ -2634,6 +2634,12 @@ dfn {
   font-weight: normal;
 }
 
+.usa-footer a:hover {
+  font-weight: normal;
+  color: #e31c3d;
+
+}
+
 .usa-footer-return-to-top {
   padding-bottom: 2rem;
   padding-top: 2rem;
