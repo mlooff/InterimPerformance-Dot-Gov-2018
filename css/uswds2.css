@@ -2090,7 +2090,7 @@ dfn {
 .usa-accordion > ul button:hover,
 .usa-accordion-bordered > ul button:hover {
   background-color: #d6d7d9;
-  color: #212121;
+  color: #ffffff;
 }
 
 .usa-accordion > ul button h1,
@@ -2190,7 +2190,7 @@ dfn {
 
 .usa-accordion-button:hover {
   background-color: #112e51;
-  color: #212121;
+  color: #ffffff;
 }
 
 .usa-accordion-button h1,
@@ -2200,7 +2200,7 @@ dfn {
 .usa-accordion-button h5,
 .usa-accordion-button h6 {
   margin: 0;
-  color: #212121;
+  color: #ffffff;
 }
 
 .usa-accordion-button[aria-expanded=false] {
@@ -3479,7 +3479,7 @@ input.usa-input-medium {
     margin-top: -1px;
     max-width: 1040px;
     position: relative;
-    color: #212121;
+    color: #ffffff;
   }
   .usa-header-extended .usa-nav-inner::after {
     clear: both;
@@ -3655,7 +3655,7 @@ input.usa-input-medium {
   .usa-nav-link:hover span {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 1rem;
-    color: #212121;
+  
   }
 }
 
@@ -3920,7 +3920,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-primary button[aria-expanded=true] {
     background-color: #112e51;
-    color: #212121;
+    color: #ffffff;
     background-image: url("../img/angle-arrow-down-hover.png");
     background-image: url("../img/angle-arrow-down-hover.svg");
     background-position: right 1.5rem top 44%;
@@ -4103,7 +4103,7 @@ input.usa-input-medium {
 
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a {
-    color: #212121;
+    color: #ffffff;
     padding-left: 1.8rem;
   }
 }
@@ -4111,7 +4111,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a:hover {
     background-color: #112e51;
-    color: #212121;
+    color: #ffffff;
     text-decoration: underline;
   }
 }
