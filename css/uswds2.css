@@ -134,7 +134,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-font-color: #0071bc;	
+font-color: #0071bc;
 }
 
 /**
@@ -2632,10 +2632,19 @@ dfn {
 
 .usa-footer .usa-footer-primary-link:hover {
   text-decoration: underline;
+
+
 }
 
 .usa-footer a {
   font-weight: normal;
+
+}
+
+.usa-footer a:hover {
+  font-weight: normal;
+  color: #e31c3d;
+
 }
 
 .usa-footer-return-to-top {
@@ -2645,6 +2654,7 @@ dfn {
 
 .usa-footer-primary-section {
   background-color: #f1f1f1;
+
 }
 
 .usa-footer-primary-section .usa-footer-primary-content {
@@ -2661,6 +2671,7 @@ dfn {
 
 .usa-footer-primary-section .usa-footer-primary-content li {
   margin-left: 1rem;
+  color: #212121;
 }
 
 @media screen and (min-width: 600px) {
@@ -2674,6 +2685,32 @@ dfn {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
+}
+
+@media screen and (min-width: 600px) {
+.two-columns {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 50px;
+column-gap: 50px;
+-moz-column-gap: 50px;
+list-style-type: none;
+border-collapse: collapse;
+}
+}
+
+@media screen and (min-width: 600px) {
+.one-column {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-gap: 50px;
+column-gap: 50px;
+-moz-column-gap: 50px;
+list-style-type: none;
+border-collapse: collapse;
+}
 }
 
 .usa-footer-medium .usa-footer-primary-section {
@@ -2714,7 +2751,7 @@ dfn {
 
 @media screen and (min-width: 1201px) {
   .usa-footer-slim .usa-footer-nav .usa-footer-primary-content {
-    margin-right: 9%;
+    margin-right: 5%;
     width: inherit;
   }
 }
@@ -2777,6 +2814,7 @@ ul.usa-footer-primary-content,
 li.usa-footer-primary-content,
 li.usa-footer-primary-content {
   border-top: 1px solid #212121;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -2784,6 +2822,7 @@ li.usa-footer-primary-content {
   li.usa-footer-primary-content,
   li.usa-footer-primary-content {
     border: none;
+
   }
 }
 
@@ -2957,10 +2996,12 @@ li.usa-footer-primary-content:last-child {
 
 .usa-footer-logo-heading {
   margin-top: 2rem;
+  text-align: left;
 }
 
 .usa-footer-contact-heading {
   margin-top: 0;
+  text-align: right;
 }
 
 @media screen and (min-width: 600px) {
@@ -3219,17 +3260,17 @@ input.usa-input-medium {
 
 .usa-graphic_list .usa-media_block-body > :first-child {
   margin-top: 3rem;
-		
+
 }
 
-.usa-graphic_list .usa-media_block-body 
+.usa-graphic_list .usa-media_block-body
   margin-top: 0rem;
 	 padding-top:40px;
     padding-right: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
 
-	
+
 }
 
 .usa-header {
@@ -3487,7 +3528,7 @@ input.usa-input-medium {
   background-image: url("../img/homepage_images/newhero_112e51_1.png");
   background-position: center;
   background-size: cover;
-	
+
 }
 
 .layer {

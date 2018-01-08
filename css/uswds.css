@@ -2634,6 +2634,12 @@ dfn {
   font-weight: normal;
 }
 
+.usa-footer a:hover {
+  font-weight: normal;
+  color: #e31c3d;
+
+}
+
 .usa-footer-return-to-top {
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -2694,6 +2700,32 @@ dfn {
   .usa-footer-medium .usa-footer-primary-section .usa-footer-primary-content:last-child {
     margin-right: 0;
   }
+}
+
+@media screen and (min-width: 600px) {
+.two-columns {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+-webkit-column-gap: 50px;
+column-gap: 50px;
+-moz-column-gap: 50px;
+list-style-type: none;
+border-collapse: collapse;
+}
+}
+
+@media screen and (min-width: 600px) {
+.one-column {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-gap: 50px;
+column-gap: 50px;
+-moz-column-gap: 50px;
+list-style-type: none;
+border-collapse: collapse;
+}
 }
 
 @media screen and (min-width: 600px) {
