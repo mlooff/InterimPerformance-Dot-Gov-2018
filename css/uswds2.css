@@ -202,6 +202,7 @@ figure {
 hr {
   box-sizing: content-box;
   height: 0;
+
 }
 
 /**
@@ -2169,7 +2170,7 @@ dfn {
   background-position: right 3rem center;
   background-repeat: no-repeat;
   background-size: 13px;
-  color: #fffff;
+  color: #212121;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -2189,7 +2190,7 @@ dfn {
 
 .usa-accordion-button:hover {
   background-color: #112e51;
-  color: #ffffff;
+  color: #212121;
 }
 
 .usa-accordion-button h1,
@@ -2199,6 +2200,7 @@ dfn {
 .usa-accordion-button h5,
 .usa-accordion-button h6 {
   margin: 0;
+  color: #212121;
 }
 
 .usa-accordion-button[aria-expanded=false] {
@@ -3477,6 +3479,7 @@ input.usa-input-medium {
     margin-top: -1px;
     max-width: 1040px;
     position: relative;
+    color: #212121;
   }
   .usa-header-extended .usa-nav-inner::after {
     clear: both;
@@ -3652,6 +3655,7 @@ input.usa-input-medium {
   .usa-nav-link:hover span {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 1rem;
+    color: #212121;
   }
 }
 
@@ -3916,7 +3920,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-primary button[aria-expanded=true] {
     background-color: #112e51;
-    color: #ffffff;
+    color: #212121;
     background-image: url("../img/angle-arrow-down-hover.png");
     background-image: url("../img/angle-arrow-down-hover.svg");
     background-position: right 1.5rem top 44%;
@@ -4099,7 +4103,7 @@ input.usa-input-medium {
 
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a {
-    color: #ffffff;
+    color: #212121;
     padding-left: 1.8rem;
   }
 }
@@ -4107,7 +4111,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a:hover {
     background-color: #112e51;
-    color: #ffffff;
+    color: #212121;
     text-decoration: underline;
   }
 }
