@@ -4065,6 +4065,7 @@ input.usa-input-medium {
 
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a {
+    color: #ffffff;
     padding-left: 1.8rem;
   }
 }
