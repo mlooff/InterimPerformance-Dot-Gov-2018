@@ -2924,7 +2924,7 @@ li.usa-footer-primary-content:last-child {
 }
 
 .usa-footer-big ul li {
-  line-height: 2em;
+  line-height: 1.2em;
 }
 
 .usa-footer-big ul .usa-footer-primary-link {
@@ -3655,7 +3655,7 @@ input.usa-input-medium {
   .usa-nav-link:hover span {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 1rem;
-  
+
   }
 }
 
