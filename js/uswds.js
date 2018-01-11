@@ -1181,7 +1181,7 @@ if (!Array.prototype.forEach) {
     // 3. Let len be toUint32(lenValue).
     var len = O.length >>> 0;
 
-    // 4. If isCallable(callback) is false, throw a TypeError exception. 
+    // 4. If isCallable(callback) is false, throw a TypeError exception.
     // See: http://es5.github.com/#x9.11
     if (typeof callback !== 'function') {
       throw new TypeError(callback + ' is not a function');
@@ -1250,7 +1250,7 @@ if (!Function.prototype.bind) {
 
     if (this.prototype) {
       // Function.prototype doesn't have a prototype property
-      fNOP.prototype = this.prototype; 
+      fNOP.prototype = this.prototype;
     }
     fBound.prototype = new fNOP();
 
