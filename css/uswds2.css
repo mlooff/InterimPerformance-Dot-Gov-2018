@@ -202,6 +202,7 @@ figure {
 hr {
   box-sizing: content-box;
   height: 0;
+
 }
 
 /**
@@ -2089,7 +2090,7 @@ dfn {
 .usa-accordion > ul button:hover,
 .usa-accordion-bordered > ul button:hover {
   background-color: #d6d7d9;
-  color: #212121;
+  color: #ffffff;
 }
 
 .usa-accordion > ul button h1,
@@ -2169,7 +2170,7 @@ dfn {
   background-position: right 3rem center;
   background-repeat: no-repeat;
   background-size: 13px;
-  color: #fffff;
+  color: #212121;
   cursor: pointer;
   display: inline-block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -2199,6 +2200,7 @@ dfn {
 .usa-accordion-button h5,
 .usa-accordion-button h6 {
   margin: 0;
+  color: #ffffff;
 }
 
 .usa-accordion-button[aria-expanded=false] {
@@ -2922,7 +2924,7 @@ li.usa-footer-primary-content:last-child {
 }
 
 .usa-footer-big ul li {
-  line-height: 2em;
+  line-height: 1.2em;
 }
 
 .usa-footer-big ul .usa-footer-primary-link {
@@ -3477,6 +3479,7 @@ input.usa-input-medium {
     margin-top: -1px;
     max-width: 1040px;
     position: relative;
+    color: #ffffff;
   }
   .usa-header-extended .usa-nav-inner::after {
     clear: both;
@@ -3652,6 +3655,7 @@ input.usa-input-medium {
   .usa-nav-link:hover span {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 1rem;
+
   }
 }
 

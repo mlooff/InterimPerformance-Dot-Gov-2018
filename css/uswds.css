@@ -2113,7 +2113,7 @@ dfn {
 
 .usa-accordion > li,
 .usa-accordion-bordered > li {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
@@ -2203,6 +2203,7 @@ dfn {
   background-repeat: no-repeat;
   background-size: 1.3rem;
 }
+
 
 .usa-alert {
   background-color: #f1f1f1;
@@ -2911,7 +2912,7 @@ li.usa-footer-primary-content:last-child {
 }
 
 .usa-footer-big ul li {
-  line-height: 2em;
+  line-height: 1.2em;
 }
 
 .usa-footer-big ul .usa-footer-primary-link {
