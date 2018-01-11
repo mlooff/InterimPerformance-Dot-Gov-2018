@@ -2113,7 +2113,7 @@ dfn {
 
 .usa-accordion > li,
 .usa-accordion-bordered > li {
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
@@ -2912,7 +2912,7 @@ li.usa-footer-primary-content:last-child {
 }
 
 .usa-footer-big ul li {
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
 
 .usa-footer-big ul .usa-footer-primary-link {
