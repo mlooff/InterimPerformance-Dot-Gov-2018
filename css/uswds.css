@@ -780,6 +780,7 @@ body {
 .usa-button-primary,
 .usa-button:visited,
 .usa-button-primary:visited,
+.usa-button-big,
 button,
 [type=button],
 [type=submit],
@@ -815,6 +816,7 @@ button,
   .usa-button-primary,
   .usa-button:visited,
   .usa-button-primary:visited,
+  .usa-button-big,
   button,
   [type=button],
   [type=submit],
@@ -874,6 +876,7 @@ button.usa-button-focus,
 .usa-button:visited.usa-button-active,
 .usa-button-primary:visited:active,
 .usa-button-primary:visited.usa-button-active,
+.usa-button-big.usa-button-active,
 button:active,
 button.usa-button-active,
 [type=button]:active,
@@ -884,7 +887,7 @@ button.usa-button-active,
 [type=reset].usa-button-active,
 [type=image]:active,
 [type=image].usa-button-active {
-  background-color: #112e51;
+  background-color: #0071bc;
 }
 
 .usa-button.usa-button-primary-alt,
@@ -1213,8 +1216,8 @@ button.usa-button-big,
 /* stylelint-disable */
 .usa-button:disabled,
 .usa-button-disabled {
-  background-color: #d6d7d9;
-  color: #323a45;
+  background-color: #0071bc;
+  color: #ffffff;
   pointer-events: none;
 }
 
@@ -2038,7 +2041,7 @@ dfn {
 
 .usa-accordion > ul > li,
 .usa-accordion-bordered > ul > li {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
@@ -2056,7 +2059,7 @@ dfn {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   background-image: url("../img/minus.png");
   background-image: url("../img/minus.svg");
   background-position: right 3rem center;
@@ -2113,7 +2116,7 @@ dfn {
 
 .usa-accordion > li,
 .usa-accordion-bordered > li {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   list-style: none;
   margin-bottom: 6px;
@@ -2203,6 +2206,7 @@ dfn {
   background-repeat: no-repeat;
   background-size: 1.3rem;
 }
+
 
 .usa-alert {
   background-color: #f1f1f1;
@@ -2911,7 +2915,7 @@ li.usa-footer-primary-content:last-child {
 }
 
 .usa-footer-big ul li {
-  line-height: 2em;
+  line-height: 1.4em;
 }
 
 .usa-footer-big ul .usa-footer-primary-link {
