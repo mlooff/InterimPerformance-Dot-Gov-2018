@@ -780,6 +780,7 @@ body {
 .usa-button-primary,
 .usa-button:visited,
 .usa-button-primary:visited,
+.usa-button-big,
 button,
 [type=button],
 [type=submit],
@@ -815,6 +816,7 @@ button,
   .usa-button-primary,
   .usa-button:visited,
   .usa-button-primary:visited,
+  .usa-button-big,
   button,
   [type=button],
   [type=submit],
@@ -874,6 +876,7 @@ button.usa-button-focus,
 .usa-button:visited.usa-button-active,
 .usa-button-primary:visited:active,
 .usa-button-primary:visited.usa-button-active,
+.usa-button-big.usa-button-active,
 button:active,
 button.usa-button-active,
 [type=button]:active,
@@ -884,7 +887,7 @@ button.usa-button-active,
 [type=reset].usa-button-active,
 [type=image]:active,
 [type=image].usa-button-active {
-  background-color: #112e51;
+  background-color: #0071bc;
 }
 
 .usa-button.usa-button-primary-alt,
@@ -1213,8 +1216,8 @@ button.usa-button-big,
 /* stylelint-disable */
 .usa-button:disabled,
 .usa-button-disabled {
-  background-color: #d6d7d9;
-  color: #323a45;
+  background-color: #0071bc;
+  color: #ffffff;
   pointer-events: none;
 }
 
