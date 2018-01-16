@@ -4042,7 +4042,7 @@ input.usa-input-medium {
 }
 
 .usa-nav-submenu .usa-sidenav-sub_list a:hover {
-  padding-left: 3.8rem;
+  padding-left: 1.0rem;
 }
 
 @media screen and (min-width: 951px) {
@@ -4070,7 +4070,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a {
     color: #ffffff;
-    padding-left: 1.8rem;
+    padding-left: 1.0rem;
   }
 }
 
