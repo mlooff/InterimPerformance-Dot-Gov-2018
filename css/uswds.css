@@ -3748,7 +3748,7 @@ input.usa-input-medium {
   display: block;
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 1.3;
-  padding: 0.85rem 1rem 0.85rem 1.8rem;
+  padding: 0.6rem 1rem 0.6rem 1.8rem;
   text-decoration: none;
 }
 
@@ -4042,7 +4042,7 @@ input.usa-input-medium {
 }
 
 .usa-nav-submenu .usa-sidenav-sub_list a:hover {
-  padding-left: 3.8rem;
+  padding-left: 1.0rem;
 }
 
 @media screen and (min-width: 951px) {
@@ -4070,7 +4070,7 @@ input.usa-input-medium {
 @media screen and (min-width: 951px) {
   .usa-nav-submenu a {
     color: #ffffff;
-    padding-left: 1.8rem;
+    padding-left: 1.0rem;
   }
 }
 
@@ -4148,7 +4148,7 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     right: 100%;
   }
 }
@@ -4161,8 +4161,9 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     left: 100%;
+
   }
 }
 
