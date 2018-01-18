@@ -4376,8 +4376,8 @@ input.usa-input-medium {
 
 @media screen and (min-width: 600px) {
   .usa-section {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
