@@ -1664,10 +1664,14 @@ p + ol {
   margin-bottom: 0;
 }
 
+
 table {
   border-spacing: 0;
-  margin: 2em 0;
-  min-width: 100%;
+  margin:  0x;
+  border-collapse: collapse;
+  width:20%;
+  float: left;
+
 }
 
 table thead th,
@@ -1677,6 +1681,8 @@ table thead td {
 
 table th {
   text-align: left;
+    margin:400px;
+
 }
 
 table tbody th {
@@ -1686,8 +1692,10 @@ table tbody th {
 table th,
 table td {
   background-color: #ffffff;
-  border: 1px solid #5b616b;
-  padding: 1.5rem;
+  border: 0px solid #ffffff;
+  padding-bottom: 1rem;
+
+
 }
 
 .usa-table-borderless thead tr {
