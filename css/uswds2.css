@@ -1731,6 +1731,11 @@ a:visited {
   color: #4c2c92;
 }
 
+a:disabled {
+  color: #0071bc;
+  text-decoration: none;
+}
+
 a:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
   outline: 0;
@@ -3528,17 +3533,22 @@ input.usa-input-medium {
 .usa-hero {
   padding-top: 13rem;
   padding-bottom: 12rem;
-  background-image: url("../img/homepage_images/newhero_112e51_1.png");
+  background-image: url("../img/homepage_images/farm.jpeg");
   background-position: center;
   background-size: cover;
+  position: relative
+
 
 }
 
 .layer {
-    background-color: rgba(0, 113, 188, 0.7);
-    position: absolute;
-    width: 100%;
-    height: 60%;
+  background-color: rgba(0, 113, 188, 0.2);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+
 }
 
 .usa-hero .usa-button {
@@ -4391,7 +4401,17 @@ input.usa-input-medium {
 }
 
 .usa-section-dark {
-  background-color: #046b99;
+  background-color: #112e51;
+  color: #ffffff;
+}
+
+.usa-section-lighter {
+  background-color: #aeb0b5;
+  color: #000000;
+}
+
+.usa-section-red {
+  background-color: #981b1e;
   color: #ffffff;
 }
 
