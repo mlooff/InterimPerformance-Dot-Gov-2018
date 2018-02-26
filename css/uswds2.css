@@ -3640,7 +3640,7 @@ input.usa-input-medium {
 }
 
 .usa-media_block-body {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .usa-navbar {
