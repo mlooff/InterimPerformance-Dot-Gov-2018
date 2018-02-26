@@ -4382,12 +4382,14 @@ input.usa-input-medium {
 .usa-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+
 }
 
 @media screen and (min-width: 600px) {
   .usa-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-right: 0rem;
   }
 }
 
