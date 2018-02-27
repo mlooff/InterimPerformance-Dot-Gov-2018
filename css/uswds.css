@@ -1832,11 +1832,11 @@ dfn {
 }
 
 .usa-content p:not(.usa-font-lead) {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-content-list {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-sans p,
@@ -4384,6 +4384,55 @@ input.usa-input-medium {
 
 .usa-section-dark a:hover {
   color: #ffffff;
+}
+
+#container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.block {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #d6d7d9;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #205493;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-3 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #112e51;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-4 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #323a45;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
 }
 
 .usa-sidenav-list {
