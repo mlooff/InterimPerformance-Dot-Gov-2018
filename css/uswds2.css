@@ -3608,12 +3608,14 @@ input.usa-input-medium {
   padding: 1rem;
   line-height: 1.8;
 
+
 }
 
 #navheader {
-    text-decoration: underline;
+    text-decoration: none;
     color: #02bfe7;
     font-weight: bold;
+
 }
 
 .usa-layout-docs {
