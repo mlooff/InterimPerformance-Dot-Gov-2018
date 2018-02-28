@@ -3615,6 +3615,7 @@ input.usa-input-medium {
     text-decoration: none;
     color: #02bfe7;
     font-weight: bold;
+    link: disabled;
 
 }
 
