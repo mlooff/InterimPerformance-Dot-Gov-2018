@@ -3530,13 +3530,16 @@ input.usa-input-medium {
   }
 }
 
+
+
 .usa-hero {
-  padding-top: 13rem;
-  padding-bottom: 12rem;
-  background-image: url("../img/homepage_images/Pgov_homepage_img.png");
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("../img/homepage_images/Pgov_hmpg_composite.jpg");
   background-position: center;
   background-size: cover;
   position: relative
+
 
 
 }
@@ -3563,6 +3566,7 @@ input.usa-input-medium {
   background-color: #5b616b;
   padding: 3rem;
   width: 400px;
+
 }
 
 @media screen and (min-width: 481px) {
@@ -3583,8 +3587,33 @@ input.usa-input-medium {
 }
 
 .usa-hero-callout-alt {
-  color: #fffff;
+  color: #02bfe7;
   display: block;
+  font-size: 3rem;
+  line-height: inherit;
+}
+
+#header {
+  background-color: #fdb81e;
+  font-size: 5rem;
+  color: #112e51;
+  padding: 1rem;
+
+}
+
+#subheader {
+  background-color: #fdb81e;
+  font-size: 3rem;
+  color: #ffffff;
+  padding: 1rem;
+  line-height: 1.8;
+
+}
+
+#navheader {
+    text-decoration: underline;
+    color: #02bfe7;
+    font-weight: bold;
 }
 
 .usa-layout-docs {
