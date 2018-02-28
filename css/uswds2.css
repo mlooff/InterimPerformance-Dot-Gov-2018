@@ -3680,6 +3680,12 @@ input.usa-input-medium {
   height: 4rem;
 }
 
+.disabled {
+       pointer-events: none;
+       cursor: default;
+
+   }
+
 @media screen and (min-width: 951px) {
   .usa-navbar {
     border-bottom: none;
