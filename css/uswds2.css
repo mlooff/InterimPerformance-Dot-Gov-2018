@@ -4455,11 +4455,16 @@ input.usa-input-medium {
   color: #ffffff;
 }
 
-.usa-section-red {
+.usa-section-green {
   background-color: #2e8540;
   color: #ffffff;
 }
 
+
+.usa-section-blue {
+  background-color: #0071bc;
+  color: #ffffff;
+}
 .usa-section-dark h1,
 .usa-section-dark h2,
 .usa-section-dark h3,
