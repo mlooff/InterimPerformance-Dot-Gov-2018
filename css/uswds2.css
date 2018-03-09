@@ -1731,6 +1731,11 @@ a:visited {
   color: #4c2c92;
 }
 
+a:disabled {
+  color: #0071bc;
+  text-decoration: none;
+}
+
 a:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
   outline: 0;
@@ -1826,11 +1831,11 @@ dfn {
 }
 
 .usa-content p:not(.usa-font-lead) {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-content-list {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-sans p,
@@ -3525,20 +3530,28 @@ input.usa-input-medium {
   }
 }
 
+
+
 .usa-hero {
-  padding-top: 13rem;
-  padding-bottom: 12rem;
-  background-image: url("../img/homepage_images/newhero_112e51_1.png");
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url("../img/homepage_images/Pgov_hmpg_composite.jpg");
   background-position: center;
   background-size: cover;
+  position: relative
+
+
 
 }
 
 .layer {
-    background-color: rgba(0, 113, 188, 0.7);
-    position: absolute;
-    width: 100%;
-    height: 60%;
+  background-color: rgba(0, 113, 188, 0.2);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+
 }
 
 .usa-hero .usa-button {
@@ -3553,6 +3566,7 @@ input.usa-input-medium {
   background-color: #5b616b;
   padding: 3rem;
   width: 400px;
+
 }
 
 @media screen and (min-width: 481px) {
@@ -3573,8 +3587,36 @@ input.usa-input-medium {
 }
 
 .usa-hero-callout-alt {
-  color: #fffff;
+  color: #02bfe7;
   display: block;
+  font-size: 3rem;
+  line-height: inherit;
+}
+
+#header {
+  background-color: #fdb81e;
+  font-size: 5rem;
+  color: #112e51;
+  padding: 1rem;
+
+}
+
+#subheader {
+  background-color: #fdb81e;
+  font-size: 3rem;
+  color: #212121;
+  padding: 1rem;
+  line-height: 1.8;
+
+
+}
+
+#navheader {
+    text-decoration: none;
+    color: #02bfe7;
+    font-weight: bold;
+    link: disabled;
+
 }
 
 .usa-layout-docs {
@@ -3630,13 +3672,19 @@ input.usa-input-medium {
 }
 
 .usa-media_block-body {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .usa-navbar {
   border-bottom: 1px solid #aeb0b5;
   height: 4rem;
 }
+
+.disabled {
+       pointer-events: none;
+       cursor: default;
+
+   }
 
 @media screen and (min-width: 951px) {
   .usa-navbar {
@@ -4372,12 +4420,14 @@ input.usa-input-medium {
 .usa-section {
   padding-top: 3rem;
   padding-bottom: 3rem;
+
 }
 
 @media screen and (min-width: 600px) {
   .usa-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding-right: 0rem;
   }
 }
 
@@ -4391,10 +4441,30 @@ input.usa-input-medium {
 }
 
 .usa-section-dark {
-  background-color: #046b99;
+  background-color: #112e51;
   color: #ffffff;
 }
 
+.usa-section-lighter {
+  background-color: #d6d7d9;
+  color: #000000;
+}
+
+.usa-section-leader {
+  background-color: #205493;
+  color: #ffffff;
+}
+
+.usa-section-green {
+  background-color: #2e8540;
+  color: #ffffff;
+}
+
+
+.usa-section-blue {
+  background-color: #0071bc;
+  color: #ffffff;
+}
 .usa-section-dark h1,
 .usa-section-dark h2,
 .usa-section-dark h3,
@@ -4414,6 +4484,55 @@ input.usa-input-medium {
 
 .usa-section-dark a:hover {
   color: #ffffff;
+}
+
+#container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.block {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #d6d7d9;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #205493;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-3 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #112e51;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-4 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #323a45;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
 }
 
 .usa-sidenav-list {
