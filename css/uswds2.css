@@ -3566,6 +3566,8 @@ input.usa-input-medium {
   background-color: #5b616b;
   padding: 3rem;
   width: 400px;
+  float: right;
+
 
 }
 
@@ -3582,7 +3584,7 @@ input.usa-input-medium {
 
 .usa-hero-callout .usa-button {
   font-size: 1.4rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -3590,7 +3592,9 @@ input.usa-input-medium {
   color: #02bfe7;
   display: block;
   font-size: 3rem;
-  line-height: inherit;
+  line-height: 3.5rem;
+
+
 }
 
 #header {
@@ -4446,7 +4450,9 @@ input.usa-input-medium {
 }
 
 .usa-section-lighter {
-  background-color: #d6d7d9;
+  background-color: #d6d7d9
+
+;
   color: #000000;
 }
 
