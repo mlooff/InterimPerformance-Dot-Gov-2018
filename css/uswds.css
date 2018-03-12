@@ -1740,6 +1740,11 @@ a:visited {
   color: #4c2c92;
 }
 
+a:disabled {
+  color: #0071bc;
+  text-decoration: none;
+}
+
 a:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
   outline: 0;
@@ -3616,6 +3621,14 @@ input.usa-input-medium {
 .disabled {
        pointer-events: none;
        cursor: default;
+
+   }
+
+   #navheader {
+       text-decoration: none;
+       color: #02bfe7;
+       font-weight: bold;
+       link: disabled;
 
    }
 
