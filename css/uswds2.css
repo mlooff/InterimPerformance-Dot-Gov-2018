@@ -4482,9 +4482,15 @@ input.usa-input-medium {
 }
 
 .usa-section-CAP {
-  background-color: #e4e2e0;
+  background-color: #e4e2e0; 0071bc
   color: #112e51;
 }
+
+.usa-section-video {
+  background-color: #0071bc;
+  color: #ffffff;
+}
+
 .usa-section-dark h1,
 .usa-section-dark h2,
 .usa-section-dark h3,
