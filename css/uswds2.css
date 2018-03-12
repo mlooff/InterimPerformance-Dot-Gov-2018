@@ -3540,7 +3540,15 @@ input.usa-input-medium {
   background-size: cover;
   position: relative
 
+}
 
+  .usa-hero-2 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("../img/homepage_images/PMA_composite_gray.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative
 
 }
 
@@ -4441,7 +4449,8 @@ input.usa-input-medium {
 }
 
 .usa-section-light {
-  background-color: #e1f3f8;
+  background-color: #ffffff;
+  color: #112e51;
 }
 
 .usa-section-dark {
