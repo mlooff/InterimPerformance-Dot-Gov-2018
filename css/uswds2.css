@@ -1212,6 +1212,17 @@ button.usa-button-big,
   padding: 1.5rem 3rem;
 }
 
+.usa-button-red {
+  background-color: #e31c3d;
+  color: #ffffff;
+}
+
+.usa-button.usa-button-red:hover {
+  background-color: #981b1e;
+  color: #ffffff;
+
+}
+
 /* stylelint-disable */
 .usa-button:disabled,
 .usa-button-disabled {
@@ -4489,6 +4500,20 @@ input.usa-input-medium {
 .usa-section-video {
   background-color: #0071bc;
   color: #ffffff;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .usa-section-dark h1,
