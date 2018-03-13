@@ -4455,7 +4455,7 @@ input.usa-input-medium {
 }
 
 .usa-section-other {
-  background-color: #205493;
+  background-color: #323a45;
 	color: #ffffff;
 }
 
@@ -4512,6 +4512,22 @@ input.usa-input-medium {
 .videoWrapper iframe {
 	position: absolute;
 	top: 60;
+	left: 40;
+	width: 100%;
+	height: 100%;
+
+}
+
+.videoWrapper-2 {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 20px;
+	height: 0;
+
+}
+.videoWrapper-2 iframe {
+	position: absolute;
+	top: 0;
 	left: 40;
 	width: 100%;
 	height: 100%;
