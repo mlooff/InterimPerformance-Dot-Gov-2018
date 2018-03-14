@@ -20,6 +20,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+
 }
 
 /**
@@ -4253,7 +4254,7 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     right: 100%;
   }
 }
@@ -4266,7 +4267,7 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     left: 100%;
   }
 }
