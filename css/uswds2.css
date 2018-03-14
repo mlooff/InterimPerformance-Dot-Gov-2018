@@ -4496,6 +4496,13 @@ input.usa-input-medium {
 .usa-section-CAP {
   background-color: #e4e2e0;
   color: #112e51;
+  border-top: 1.6rem solid #aeb0b5;
+}
+
+.usa-section-dark-border {
+  background-color: #112e51;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
 }
 
 .usa-section-video {
