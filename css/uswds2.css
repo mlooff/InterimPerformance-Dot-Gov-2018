@@ -1231,7 +1231,7 @@ button.usa-button-big,
   padding: 1.5rem 2.3rem;
 }
 
-a.usa-button..usa-button-red:visited {
+a.usa-button.usa-button-red:visited {
   background-color: #cd2026;
   color: #ffffff;
   padding: 1.5rem 2.3rem;
