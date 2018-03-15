@@ -1225,6 +1225,12 @@ button.usa-button-big,
 
 }
 
+.usa-button-primary:visited,{
+  background-color: #cd2026;
+  color: #ffffff;
+  padding: 1.5rem 2.3rem;
+}
+
 /* stylelint-disable */
 .usa-button:disabled,
 .usa-button-disabled {
