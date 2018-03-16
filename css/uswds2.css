@@ -3275,6 +3275,16 @@ input.usa-input-medium {
   }
 }
 
+.usa-graphic_list .usa-graphic_list-row-CAP .usa-media_block {
+  margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 600px) {
+  .usa-graphic_list .usa-graphic_list-row-CAP .usa-media_block {
+    margin-bottom: 0rem;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .usa-graphic_list .usa-graphic_list-row:last-child .usa-media_block {
     margin-bottom: 0;
