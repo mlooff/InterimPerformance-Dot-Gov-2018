@@ -3517,8 +3517,8 @@ input.usa-input-medium {
 .content {
 	padding: 0 0 0 75px; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
 	position: relative; /* So the thumbnail is relative to this */
-}
 
+}
 	.content img {
 		left: 0;
 		position: absolute;
