@@ -1740,6 +1740,11 @@ a:visited {
   color: #4c2c92;
 }
 
+a:disabled {
+  color: #0071bc;
+  text-decoration: none;
+}
+
 a:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
   outline: 0;
@@ -1832,11 +1837,11 @@ dfn {
 }
 
 .usa-content p:not(.usa-font-lead) {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-content-list {
-  max-width: 53rem;
+  max-width: 100%;
 }
 
 .usa-sans p,
@@ -3509,6 +3514,17 @@ input.usa-input-medium {
   }
 }
 
+.content {
+	padding: 0 0 0 75px; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
+	position: relative; /* So the thumbnail is relative to this */
+
+}
+	.content img {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+
 .usa-hero {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -3612,6 +3628,46 @@ input.usa-input-medium {
   border-bottom: 1px solid #aeb0b5;
   height: 4rem;
 }
+
+.disabled {
+       pointer-events: none;
+       cursor: default;
+
+   }
+
+   #navheader {
+       text-decoration: none;
+       color: #02bfe7;
+       font-weight: bold;
+       link: disabled;
+
+   }
+
+   #header {
+     background-color: #fdb81e;
+     font-size: 5rem;
+     color: #112e51;
+     padding: 1rem;
+
+   }
+
+   #subheader {
+     background-color: #fdb81e;
+     font-size: 3rem;
+     color: #212121;
+     padding: 1rem;
+     line-height: 1.8;
+
+
+   }
+
+   #navheader {
+       text-decoration: none;
+       color: #02bfe7;
+       font-weight: bold;
+       link: disabled;
+
+   }
 
 @media screen and (min-width: 951px) {
   .usa-navbar {
@@ -4384,6 +4440,55 @@ input.usa-input-medium {
 
 .usa-section-dark a:hover {
   color: #ffffff;
+}
+
+#container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.block {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #d6d7d9;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #205493;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-3 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #112e51;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.block-4 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  background: #323a45;
+  color: #ffffff;
+  padding: 15px;
+  overflow: auto;
 }
 
 .usa-sidenav-list {
