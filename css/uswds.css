@@ -1740,6 +1740,11 @@ a:visited {
   color: #4c2c92;
 }
 
+a:disabled {
+  color: #0071bc;
+  text-decoration: none;
+}
+
 a:focus {
   box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf;
   outline: 0;
@@ -3509,6 +3514,17 @@ input.usa-input-medium {
   }
 }
 
+.content {
+	padding: 0 0 0 75px; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
+	position: relative; /* So the thumbnail is relative to this */
+
+}
+	.content img {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+
 .usa-hero {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -3616,6 +3632,40 @@ input.usa-input-medium {
 .disabled {
        pointer-events: none;
        cursor: default;
+
+   }
+
+   #navheader {
+       text-decoration: none;
+       color: #02bfe7;
+       font-weight: bold;
+       link: disabled;
+
+   }
+
+   #header {
+     background-color: #fdb81e;
+     font-size: 5rem;
+     color: #112e51;
+     padding: 1rem;
+
+   }
+
+   #subheader {
+     background-color: #fdb81e;
+     font-size: 3rem;
+     color: #212121;
+     padding: 1rem;
+     line-height: 1.8;
+
+
+   }
+
+   #navheader {
+       text-decoration: none;
+       color: #02bfe7;
+       font-weight: bold;
+       link: disabled;
 
    }
 
