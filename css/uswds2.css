@@ -4535,6 +4535,12 @@ input.usa-input-medium {
   border-top: 1.6rem solid #aeb0b5;
 }
 
+.usa-section-lightblue {
+  background-color: #e1f3f8;
+  color: #212121;
+  border-top: 1.6rem solid #046b99;
+}
+
 .usa-section-dark-border {
   background-color: #112e51;
   color: #ffffff;
