@@ -20,6 +20,7 @@ html {
   /* 2 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+
 }
 
 /**
@@ -1210,6 +1211,30 @@ button.usa-button-big,
 [type=image].usa-button-big {
   font-size: 1.9rem;
   padding: 1.5rem 3rem;
+}
+
+.usa-button-red {
+  background-color: #cd2026;
+  color: #ffffff;
+  padding: 1.5rem 2.3rem;
+}
+
+.usa-button.usa-button-red:hover {
+  background-color: #981b1e;
+  color: #ffffff;
+
+}
+
+.usa-button..usa-button-red:visited {
+  background-color: #cd2026;
+  color: #ffffff;
+  padding: 1.5rem 2.3rem;
+}
+
+a.usa-button.usa-button-red:visited {
+  background-color: #cd2026;
+  color: #ffffff;
+  padding: 1.5rem 2.3rem;
 }
 
 /* stylelint-disable */
@@ -3250,6 +3275,16 @@ input.usa-input-medium {
   }
 }
 
+.usa-graphic_list .usa-graphic_list-row-CAP .usa-media_block {
+  margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 600px) {
+  .usa-graphic_list .usa-graphic_list-row-CAP .usa-media_block {
+    margin-bottom: 0rem;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .usa-graphic_list .usa-graphic_list-row:last-child .usa-media_block {
     margin-bottom: 0;
@@ -3533,14 +3568,22 @@ input.usa-input-medium {
 
 
 .usa-hero {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../img/homepage_images/Pgov_hmpg_composite.jpg");
   background-position: center;
   background-size: cover;
   position: relative
 
+}
 
+  .usa-hero-2 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("../img/homepage_images/whitehouse_reduced.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative
 
 }
 
@@ -3566,6 +3609,8 @@ input.usa-input-medium {
   background-color: #5b616b;
   padding: 3rem;
   width: 400px;
+  float: left;
+
 
 }
 
@@ -3582,7 +3627,7 @@ input.usa-input-medium {
 
 .usa-hero-callout .usa-button {
   font-size: 1.4rem;
-  margin-top: 7rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
@@ -3590,7 +3635,9 @@ input.usa-input-medium {
   color: #02bfe7;
   display: block;
   font-size: 3rem;
-  line-height: inherit;
+  line-height: 3.5rem;
+
+
 }
 
 #header {
@@ -4230,7 +4277,7 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     right: 100%;
   }
 }
@@ -4243,7 +4290,7 @@ input.usa-input-medium {
     height: 100%;
     position: absolute;
     top: 0;
-    width: 1000%;
+    width: 5%;
     left: 100%;
   }
 }
@@ -4432,12 +4479,13 @@ input.usa-input-medium {
 }
 
 .usa-section-other {
-  background-color: #205493;
+  background-color: #323a45;
 	color: #ffffff;
 }
 
 .usa-section-light {
-  background-color: #e1f3f8;
+  background-color: #ffffff;
+  color: #112e51;
 }
 
 .usa-section-dark {
@@ -4445,14 +4493,29 @@ input.usa-input-medium {
   color: #ffffff;
 }
 
+.content {
+	padding: 0 0 0 75px; /* 75px being the width of the thumbnail + how much space you want to put between it and your text */
+	position: relative; /* So the thumbnail is relative to this */
+}
+
+	.content img {
+		left: 0;
+		position: absolute;
+		top: 0;
+	}
+
 .usa-section-lighter {
-  background-color: #d6d7d9;
+  background-color: #02bfe7
+
+;
   color: #000000;
 }
 
 .usa-section-leader {
   background-color: #205493;
   color: #ffffff;
+
+
 }
 
 .usa-section-green {
@@ -4462,9 +4525,65 @@ input.usa-input-medium {
 
 
 .usa-section-blue {
+  background-color: #e4e2e0;
+  color: #ffffff;
+}
+
+.usa-section-CAP {
+  background-color: #e4e2e0;
+  color: #112e51;
+  border-top: 1.6rem solid #aeb0b5;
+}
+
+.usa-section-lightblue {
+  background-color: #e1f3f8;
+  color: #212121;
+  border-top: 1.6rem solid #046b99;
+}
+
+.usa-section-dark-border {
+  background-color: #112e51;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
+}
+
+.usa-section-video {
   background-color: #0071bc;
   color: #ffffff;
 }
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 5;
+	left: 40;
+	width: 100%;
+	height: 100%;
+
+}
+
+.videoWrapper-2 {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+
+}
+.videoWrapper-2 iframe {
+	position: absolute;
+	top: 0;
+	left: 40;
+	width: 100%;
+	height: 100%;
+
+}
+
 .usa-section-dark h1,
 .usa-section-dark h2,
 .usa-section-dark h3,
