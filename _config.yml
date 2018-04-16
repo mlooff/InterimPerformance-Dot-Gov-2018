@@ -14,7 +14,7 @@ defaults:
   - scope:
       type: agencies
     values:
-      layout: agency
+      layout: navigation
 
 
 # Build settings
