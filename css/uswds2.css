@@ -4586,7 +4586,7 @@ input.usa-input-medium {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 45.25%; /* 16:9 */
 	padding-top: 0px;
 	height: 0;
 
