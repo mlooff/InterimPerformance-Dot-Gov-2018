@@ -3605,7 +3605,7 @@ input.usa-input-medium {
   color: #ffffff;
 }
 
-.usa-hero-callout {
+.usa-hero-callout-PMA {
   background-color: #5b616b;
   padding: 3rem;
   width: 400px;
@@ -3625,13 +3625,13 @@ input.usa-input-medium {
   margin-bottom: 3rem;
 }
 
-.usa-hero-callout .usa-button {
+.usa-hero-callout-PMA .usa-button {
   font-size: 1.4rem;
   margin-top: 4rem;
   width: 100%;
 }
 
-.usa-hero-callout-alt {
+.usa-hero-callout-alt-PMA {
   color: #02bfe7;
   display: block;
   font-size: 3rem;
@@ -3718,7 +3718,7 @@ input.usa-input-medium {
   margin-right: 1rem;
 }
 
-.usa-media_block-body {
+.usa-media_block-body-PMA {
   overflow: visible;
 }
 
@@ -3870,6 +3870,38 @@ input.usa-input-medium {
 .usa-nav-primary > li:first-child {
   border-top: none;
 }
+
+.align_middle {
+  vertical-align: middle;
+  margin: 20px;
+}
+
+<style scoped>
+    .dark-bg {
+        background-color: #212121;
+    }
+
+   #parent a{
+         color:#ffffff;
+         text-decoration:none;
+         }
+
+   #parent a:hover{
+           color:#02bfe7;
+           text-decoration:none;
+           transition:0.9s color ease;
+           font-weight: bold;
+           }
+
+     .center-div {
+       margin: auto;
+       width: 100px;
+           }
+
+      .tab {
+        margin-left: 18%;
+      }
+
 
 .usa-nav-primary a {
   border: none;
