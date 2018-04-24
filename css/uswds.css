@@ -160,9 +160,13 @@ align: center;
   pointer-events: none;
 }
 
+.usa-section-dark-PMA {
+  background-color: #112e51;
+  color: #ffffff;
+}
 .usa-section-dark-PMA .usa-hero-link {
   color: #ffffff;
-  background-color: #112e51;
+
 }
 
 .usa-section-dark-PMA-border {
