@@ -1,0 +1,32 @@
+title: 'Performance.gov'
+description: >- # this means to ignore newlines until "baseurl:"
+  Performance.gov provides a window into Federal agencies’ efforts to deliver a
+  smarter, leaner, and more effective government.
+baseurl: ''
+url: 'https://www.performance.gov'
+
+collections:
+  agencies:
+    output: true
+    permalink: /:path
+
+defaults:
+  - scope:
+      type: agencies
+    values:
+      layout: navigation
+
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

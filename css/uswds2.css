@@ -3871,6 +3871,38 @@ input.usa-input-medium {
   border-top: none;
 }
 
+.align_middle {
+  vertical-align: middle;
+  margin: 20px;
+}
+
+<style scoped>
+    .dark-bg {
+        background-color: #212121;
+    }
+
+   #parent a{
+         color:#ffffff;
+         text-decoration:none;
+         }
+
+   #parent a:hover{
+           color:#02bfe7;
+           text-decoration:none;
+           transition:0.9s color ease;
+           font-weight: bold;
+           }
+
+     .center-div {
+       margin: auto;
+       width: 100px;
+           }
+
+      .tab {
+        margin-left: 18%;
+      }
+
+
 .usa-nav-primary a {
   border: none;
   color: #212121;
@@ -4554,7 +4586,7 @@ input.usa-input-medium {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 45.25%; /* 16:9 */
 	padding-top: 0px;
 	height: 0;
 
