@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 tumblr_url: http://18fblog.tumblr.com/post/81293178801/announcing-fbopen-government-opportunities-made-easier
 date: '2014-03-31T11:02:00-04:00'
 title: "Announcing FBOpen: Government opportunities made easier"

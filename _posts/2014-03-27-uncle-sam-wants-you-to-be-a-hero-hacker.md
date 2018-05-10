@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: base
 tumblr_url: http://18fblog.tumblr.com/post/80900714466/uncle-sam-wants-you-to-be-a-hero-hacker
 date: '2014-03-27T15:37:00-04:00'
 

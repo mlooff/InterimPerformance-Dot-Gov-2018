@@ -19,7 +19,6 @@
         {% if include.image_icon %}
           {% include svg/icons/{{ include.image_icon }} %}
         {% else %}
-          {% include svg/icons/monitor.svg %}
         {% endif %}
       {% endunless %}
     </div>
@@ -35,7 +34,6 @@
     <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
       Read more
       <span class="usa-sr-only">about {{ include.tagline }}</span>
-      {% include svg/icons/arrow-right.svg %}
     </a>
   </div>
 </article>
