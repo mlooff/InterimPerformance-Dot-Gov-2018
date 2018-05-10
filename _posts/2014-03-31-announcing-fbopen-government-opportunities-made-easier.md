@@ -13,6 +13,7 @@ tags:
 - procurement
 - fbopen
 - acquisition services
+- talent
 ---
 
 Today we're announcing our first product launch:
