@@ -19,6 +19,103 @@ agency_dir: performance-news
     <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
 <style>
 
+.card[aria-hidden=true] {
+  display: none; }
+
+.card {
+  margin-bottom: 3rem; }
+  .card:hover svg g,
+  .card:hover svg path,
+  .card:hover svg ellipse,
+  .card:hover svg polygon,
+  .card:hover svg polyline, .card:focus svg g,
+  .card:focus svg path,
+  .card:focus svg ellipse,
+  .card:focus svg polygon,
+  .card:focus svg polyline {
+    stroke: #00547A; }
+  @media screen and (min-width: 768px) {
+    .card:nth-last-of-type(1), .card:nth-last-of-type(2), .card:nth-last-of-type(3) {
+      margin-bottom: 0; }
+    .card:nth-of-type(1), .card:nth-of-type(2), .card:nth-of-type(3) {
+      margin-bottom: 3rem; } }
+
+.card-link {
+  background-color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  width: 100%;
+  -webkit-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.2); }
+  .card-link:hover {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+  .card-link:active {
+    box-shadow: 0 0 3px #3e94cf, 0 0 7px #3e94cf; }
+  @media screen and (min-width: 600px) {
+    .card-link {
+      margin-bottom: 0; } }
+
+.card-link-tagline {
+  text-decoration: none; }
+
+.card-banner {
+  background-color: #ffffff;
+  flex: 1 0 auto;
+  float: left;
+  padding: 3rem;
+  width: 100%; }
+  .card-banner h4, .card-banner .h4 {
+    margin-top: 0; }
+
+.card-cta {
+  margin: 3rem;
+  margin-top: 0; }
+
+.card-image {
+  float: left; }
+
+.card-description {
+  color: initial;
+  font-size: 1.7rem; }
+
+.card-tag {
+  color: #5b616b;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #323a45; }
+
+.card-image-bg {
+  background-color: #f1f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.card-image-svg svg {
+  height: 100%;
+  width: 100%;
+  padding: 3rem; }
+  .card-image-svg svg g,
+  .card-image-svg svg path,
+  .card-image-svg svg ellipse,
+  .card-image-svg svg polygon,
+  .card-image-svg svg polyline {
+    stroke: #046b99; }
 
 
 </style>
@@ -246,37 +343,37 @@ agency_dir: performance-news
         <br>
             <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                    <div id="parent"><center><a href="../CAP/CAP_goal_1.html"><img src="../img/CAP_icons/Icon_Modernize_IT_white.png" alt="IT Modernization" width="80"></a>
+                    <div id="parent"><center><a href="../CAP/CAP_goal_1.html"><img src="../img/CAP_icons/Icon_Modernize_IT_white.png" alt="IT Modernization" width="70"></a>
                      <p><a href="../CAP/CAP_goal_1.html">IT Modernization</a></div></p></center>
                 </div>
               </div>
               <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                    <center><div id="parent"><a href="../CAP/CAP_goal_2.html"><img src="../img/CAP_icons/Icon_Federal_Data_white.png" alt="Icon_Federal_Data" width="80"></a>
+                    <center><div id="parent"><a href="../CAP/CAP_goal_2.html"><img src="../img/CAP_icons/Icon_Federal_Data_white.png" alt="Icon_Federal_Data" width="70"></a>
                      <p><a href="../CAP/CAP_goal_2.html">Data, Accountability and Transparency</a></div></p></center>
                 </div>
               </div>
               <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                     <center><div id="parent"><a href="../CAP/CAP_goal_3.html"><img src="../img/CAP_icons/Icon_Workforce_white.png" alt="Icon_Workforce" width="80"></a>
+                     <center><div id="parent"><a href="../CAP/CAP_goal_3.html"><img src="../img/CAP_icons/Icon_Workforce_white.png" alt="Icon_Workforce" width="70"></a>
                      <p><a href="../CAP/CAP_goal_3.html">People - Workforce for the 21st Century</a></div></p></center>
                 </div>
               </div>
               <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                     <center><div id="parent"><a href="../CAP/CAP_goal_4.html"><img src="../img/CAP_icons/Icon_Improving_Customer_white.png" alt="Icon_Improving_Outcomes" width="80"></a>
+                     <center><div id="parent"><a href="../CAP/CAP_goal_4.html"><img src="../img/CAP_icons/Icon_Improving_Customer_white.png" alt="Icon_Improving_Outcomes" width="70"></a>
                      <p><a href="../CAP/CAP_goal_4.html">Improving Customer Experience</a></div></p></center>
                 </div>
               </div>
               <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                     <center><div id="parent"><a href="../CAP/CAP_goal_5.html"><img src="../img/CAP_icons/Icon_Sharing_Quality_white.png" alt="Alt text" width="80"></a>
+                     <center><div id="parent"><a href="../CAP/CAP_goal_5.html"><img src="../img/CAP_icons/Icon_Sharing_Quality_white.png" alt="Alt text" width="70"></a>
                      <p><a href="../CAP/CAP_goal_5.html">Sharing Quality Services</a></div></p></center>
                 </div>
               </div>
               <div class="usa-width-one-sixth usa-media_block">
                 <div class="usa-media_block-body">
-                    <center><div id="parent"><a href="../CAP/CAP_goal_6.html"><img src="../img/CAP_icons/Icon_Shifting_From_white.png" alt="Icon_Shifting_From" width="80"></a>
+                    <center><div id="parent"><a href="../CAP/CAP_goal_6.html"><img src="../img/CAP_icons/Icon_Shifting_From_white.png" alt="Icon_Shifting_From" width="70"></a>
                      <p><a href="../CAP/CAP_goal_6.html">Shifting From Low-Value to High-Value Work</a></div></p></center>
                 </div>
               </div>
@@ -284,37 +381,37 @@ agency_dir: performance-news
         <div class="usa-grid usa-graphic_list-row-CAP">
         <center><div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-               <center><div id="parent"><a href="../CAP/CAP_goal_7.html"><img src="../img/CAP_icons/Icon_Category_Management_white.png" alt="Category Management" width="80"></a>
+               <center><div id="parent"><a href="../CAP/CAP_goal_7.html"><img src="../img/CAP_icons/Icon_Category_Management_white.png" alt="Category Management" width="70"></a>
                  <p><a href="../CAP/CAP_goal_7.html">Category Management</a></div></p></center>
             </div>
           </div>
           <div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-                 <center><div id="parent"><a href="../CAP/CAP_goal_8.html"><img src="../img/CAP_icons/Icon_Results-Oriented_white.png" alt="Results-Oriented" width="80"></a>
+                 <center><div id="parent"><a href="../CAP/CAP_goal_8.html"><img src="../img/CAP_icons/Icon_Results-Oriented_white.png" alt="Results-Oriented" width="70"></a>
                  <p><a href="../CAP/CAP_goal_8.html">Results-Oriented Accountability for Grants</a></div></p></center>
             </div>
           </div>
           <div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-                 <center><div id="parent"><a href="../CAP/CAP_goal_9.html"><img src="../img/CAP_icons/Icon_Getting_Payments_white.png" alt="Icon_Getting_Payments" width="80"></a>
+                 <center><div id="parent"><a href="../CAP/CAP_goal_9.html"><img src="../img/CAP_icons/Icon_Getting_Payments_white.png" alt="Icon_Getting_Payments" width="70"></a>
                  <p><a href="../CAP/CAP_goal_9.html">Getting Payments Right</a></div></p></center>
             </div>
           </div>
           <div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-                 <center><div id="parent"><a href="../CAP/CAP_goal_10.html"><img src="../img/CAP_icons/Icon_Improving_Outcomes_white.png" alt="Icon_Improving_Customer_white" width="80"></a>
+                 <center><div id="parent"><a href="../CAP/CAP_goal_10.html"><img src="../img/CAP_icons/Icon_Improving_Outcomes_white.png" alt="Icon_Improving_Customer_white" width="70"></a>
                  <p><a href="../CAP/CAP_goal_10.html">Federal IT Spending Transparency</a></div></p></center>
             </div>
           </div>
           <div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-                 <center><div id="parent"><a href="../CAP/CAP_goal_11.html"><img src="../img/CAP_icons/Icon_Achieve_Transformative_white.png" alt="Improve Management of Major Acquisitions icon" width="80"></a>
+                 <center><div id="parent"><a href="../CAP/CAP_goal_11.html"><img src="../img/CAP_icons/Icon_Achieve_Transformative_white.png" alt="Improve Management of Major Acquisitions icon" width="70"></a>
                  <p><a href="../CAP/CAP_goal_11.html">Improve Management of Major Acquisitions</a></div></p></center>
             </div>
           </div>
           <div class="usa-width-one-sixth usa-media_block">
             <div class="usa-media_block-body">
-                 <center><div id="parent"><a href="../CAP/CAP_goal_12.html"><img src="../img/CAP_icons/Icon_Modernize_Infrastructure_white.png" alt="Modernizing_Infrastructure" width="80"><a/>
+                 <center><div id="parent"><a href="../CAP/CAP_goal_12.html"><img src="../img/CAP_icons/Icon_Modernize_Infrastructure_white.png" alt="Modernizing_Infrastructure" width="70"><a/>
                  <p><a href="../CAP/CAP_goal_12.html">Modernize Infrastructure Permitting</a></div></p></center>
             </div>
           </div>
@@ -328,10 +425,49 @@ agency_dir: performance-news
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
     <div class="usa-width-one-third usa-media_block">
-
+      <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="light" data-link-color="#0071bc" href="https://twitter.com/OMBPress">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
     </div>
     <div class="usa-width-two-thirds usa-media_block">
+              <div class="usa-width-one-half usa-media_block">
+                <div class="usa-grid">
+                  <section class="usa-section">
+                    <div class="usa-section-bottom">
+                      <div class="usa-flex usa-flex-wrap">
+                        {% for project in site.posts %}
+                          {% include card.html
+                           image_src=project.image
+                           image_alt=project.image_accessibility
+                           image_icon=project.image_icon
+                           agency=project.agency
+                           tagline=project.title
+                           description=project.excerpt
+                           link=project.permalink
+                          %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </section>
+                </div>
+    </div>
+    <div class="card-banner">
 
+        <p class="card-tag">Federal Election Commission</p>
+
+
+        <a href="/what-we-deliver/fec-gov/" tabindex="-1" class="card-link-tagline"><h3 class="h4">Easy-to-use campaign data</h3></a>
+
+      <p class="card-description">Rethinking how the Federal Election Commission provides data, instructions, and legal resources to the public.</p>
+    </div>
+    <a href="/what-we-deliver/fec-gov/" class="card-cta link-arrow-right" tabindex="0">
+      Read more
+      <span class="usa-sr-only">about Easy-to-use campaign data</span>
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="444.819" height="444.819" viewBox="0 0 444.819 444.819" role="img" aria-hidden="true">
+
+</svg>
+
+    </a>
+  </div>
+</article>
     </div>
     </div>
   </section>
