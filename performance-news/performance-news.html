@@ -3,6 +3,9 @@ title: "Performance News"
 layout: navigation_PMA
 agency_dir: performance-news
 ---
+
+
+
     <section class="usa-section usa-section-dark usa-graphic_list">
       <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
@@ -113,7 +116,15 @@ agency_dir: performance-news
   </section>
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
-    <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="light" data-link-color="#0071bc" href="https://twitter.com/OMBPress">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+    <div class="usa-width-one-third usa-media_block">
+      <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="light" data-link-color="#0071bc" href="https://twitter.com/OMBPress">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+    </div>
+    <div class="usa-width-two-thirds usa-media_block">
+              <div class="usa-width-one-half usa-media_block">
+                <div class="usa-grid">
+                  <section class="usa-section">
+                    <div class="usa-section-bottom">
+                      <div class="usa-flex usa-flex-wrap">
                         {% for project in site.posts %}
                           {% include card.html
                            image_src=project.image
