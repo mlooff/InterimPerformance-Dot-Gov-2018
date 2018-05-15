@@ -3616,6 +3616,13 @@ input.usa-input-medium {
   color: #02bfe7;
 }
 
+.usa-section-ltblue-border {
+  background-color: #205493;
+  color: #ffffff;
+  border-top: 1.6rem solid #205493;
+
+}
+
 .usa-hero-callout {
   background-color: #112e51;
   padding: 3rem;
