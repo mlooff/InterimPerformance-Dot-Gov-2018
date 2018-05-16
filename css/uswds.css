@@ -1232,6 +1232,7 @@ button.usa-button-outline-inverse.usa-button-active,
 [type=image].usa-button-outline-inverse.usa-button-active {
   box-shadow: inset 0 0 0 2px #aeb0b5;
   color: #d6d7d9;
+
 }
 
 .usa-button.usa-button-outline-inverse:focus, .usa-button.usa-button-outline-inverse.usa-button-focus,
@@ -1252,6 +1253,32 @@ button.usa-button-outline-inverse.usa-button-focus,
 [type=image].usa-button-outline-inverse:focus,
 [type=image].usa-button-outline-inverse.usa-button-focus {
   box-shadow: inset 0 0 0 2px #aeb0b5, 0 0 3px #3e94cf, 0 0 7px #3e94cf;
+}
+
+.usa-button.usa-button-outline-inverse-red,
+.usa-button-primary.usa-button-outline-inverse-red,
+.usa-button:visited.usa-button-outline-inverse-red,
+.usa-button-primary:visited.usa-button-outline-inverse-red,
+button.usa-button-outline-inverse-red,
+[type=button].usa-button-outline-inverse-red,
+[type=submit].usa-button-outline-inverse-red,
+[type=reset].usa-button-outline-inverse-red,
+[type=image].usa-button-outline-inverse-red {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #ffffff;
+  color: #ffffff;
+}
+
+.usa-button.usa-button-outline-inverse-red:hover, .usa-button.usa-button-outline-inverse-red.usa-button-hover {
+  box-shadow: inset 0 0 0 2px #981b1e;
+  background-color: #981b1e;
+  color: #ffffff;
+
+}
+
+#red {
+  color: #e31c3d;
+  box-shadow: inset 0 0 0 2px #e31c3d;
 }
 
 .usa-button.usa-button-big,
@@ -3769,6 +3796,10 @@ input.usa-input-medium {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 1rem;
   }
+}
+
+#align-right{
+  float: right;
 }
 
 @media screen and (min-width: 951px) {
