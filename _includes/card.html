@@ -11,7 +11,7 @@
 <article class="card {{ wds_grid_class }} usa-width-tablet">
   <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
     <div role="img"
-         title="{{ include.image_alt }}"
+         title="{{ include.image }}"
          class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
          {% if include.image_src %}
          style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
