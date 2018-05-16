@@ -1654,11 +1654,17 @@ legend {
   background-color: #0071bc;
   border-radius: 0.3rem;
   color: #ffffff;
-  font-size: 1.5rem;
-  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
   padding: 0.1rem 0.7rem;
-  text-transform: uppercase;
+
 }
+
+.usa-label a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 .usa-label:only-of-type, .usa-label-big:only-of-type {
   margin-right: 0;
@@ -4963,6 +4969,7 @@ img .news {
 
 .card-link {
  background-color: #ffffff;
+ color: #ffffff;
  cursor: pointer;
  display: flex;
  flex-direction: column;
@@ -4987,7 +4994,10 @@ img .news {
      margin-bottom: 0; } }
 
 .card-link-tagline {
- text-decoration: none; }
+ text-decoration: none;
+ color: #ffffff;
+ }
+
 
 .card-banner {
  background-color: #ffffff;
