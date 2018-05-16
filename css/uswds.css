@@ -151,6 +151,17 @@ align: center;
 
 }
 
+#blue-logo {
+color: #205493;
+
+}
+
+#small-blue-logo {
+color: #0071bc;
+font-size: 2.3rem;
+
+}
+
 
 
 /* stylelint-disable */
