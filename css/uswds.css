@@ -207,7 +207,6 @@ img {
 */
 #border {
   align: center;
-  box-shadow: 9px 6px 5px #5b616b;
   border: 2px solid #ffffff;
   width: 35%;
   height: auto;
@@ -221,6 +220,18 @@ div.polaroid {
   text-align: center;
   border: 2px solid #ffffff;
   border-radius: 5px;
+}
+
+
+a.polaroid:visited {
+background-color: #ffffff;
+border: 5px solid #ffffff;
+
+}
+
+a.polaroid:hover {
+background-color: #ffffff;
+
 }
 
 div.container {
