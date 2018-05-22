@@ -3387,10 +3387,24 @@ input.usa-input-medium {
   }
 }
 
+
+@media screen and (min-width: 951px) {
+  .logo {
+    line-height: 7.5rem;
+    margin-left: 0;
+
+  }
+}
+
+
+
 .usa-logo a {
   color: #212121;
   text-decoration: none;
 }
+
+
+
 
 .usa-logo br {
   display: none;
