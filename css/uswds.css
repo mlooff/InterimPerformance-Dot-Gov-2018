@@ -5015,7 +5015,8 @@ img .news {
  flex: 1 0 auto;
  float: left;
  padding: 3rem;
- width: 100%; }
+ width: 100%;
+ height: 40rem; }
  .card-banner h4, .card-banner .h4 {
    margin-top: 0; }
 
@@ -5037,6 +5038,12 @@ img .news {
  letter-spacing: 0.5px;
  text-transform: uppercase;
  color: #323a45; }
+
+ .card-date {
+  color: #323a45;
+  font-size: 1rem;
+
+ }
 
 .card-image-bg {
  background-color: #f1f1f1;

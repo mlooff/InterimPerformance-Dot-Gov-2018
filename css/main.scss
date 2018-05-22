@@ -1,3 +1,20 @@
 ---
 ---
-@import 'grid';
+.usa-grid,
+.usa-grid-full {
+  .usa-width-tablet {
+    @media screen and (min-width: 768px) {
+      &:nth-of-type(3n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.usa-flex {
+  display: flex;
+}
+
+.usa-flex-wrap {
+  flex-wrap: wrap;
+}
