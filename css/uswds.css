@@ -5013,6 +5013,9 @@ img .news {
 .card-banner {
  background-color: #ffffff;
  flex: 1 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
  float: left;
  padding: 3rem;
  width: 100%;
@@ -5021,8 +5024,10 @@ img .news {
    margin-top: 0; }
 
 .card-cta {
- margin: 3rem;
- margin-top: 0; }
+ margin: 1rem;
+ margin-top: 0;
+}
+
 
 .card-image {
  float: left; }

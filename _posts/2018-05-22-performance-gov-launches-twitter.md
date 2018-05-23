@@ -3,6 +3,8 @@ layout: post
 
 title: "Performance.gov Launches Twitter Account"
 
+permalink: /2018-05-22-performance-gov-launches-twitter.md/
+
 description: Follow us @PerformanceGov for Performance.gov for a window into Federal agencies’ efforts to deliver on their mission, service, and stewardship objectives
 
 excerpt: Follow us @PerformanceGov for Performance.gov for a window into Federal agencies’ efforts to deliver on their mission, service, and stewardship objectives
