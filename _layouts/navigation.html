@@ -43,7 +43,9 @@ layout: base
         <button class="usa-menu-btn">Menu</button>
         <div class="usa-logo" id="logo">
           <em class="usa-logo-text">
-            <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
+            <a href="{{ site.baseurl }}/" accesskey="1" title="Home" aria-label="Home">
+              <img class="logo-img" src="{{ site.baseurl }}/img/homepage_images/performance-gov-logo.png" alt="Performance.gov">
+            </a>
           </em>
         </div>
       </div>
@@ -53,12 +55,7 @@ layout: base
             <img src="../img/close.svg" alt="close">
           </button>
           <ul class="usa-nav-primary usa-accordion">
-            <li>
-              <a class="usa-nav-link" href="../index.html">
-                <span>Home</span>
-              </a>
-            </li>
-   <li>
+               <li>
                     <li>
                       <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="megamenu-1">
                         <span>Management Priorities</span>
@@ -142,6 +139,22 @@ layout: base
                         </li>
                         <li>
                           <a href="../CAP/CAP_goal_14.html">Lab-to-Market</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="usa-megamenu-col">
+                      <ul>
+                        <li>
+                          <a href="#" class="disabled"><span id="navheader">Other Initiatives</span></a>
+                        </li>
+                        <!--<li>
+                          <a href="government-redesign/overview.html">Government Redesign</a>
+                        </li>-->
+                        <li>
+                          <a href="../elimination/elimination_of_unnecessary_agency_reports.html">Elimination of Unnecessary Agency Reports</a>
+                        </li>
+                        <li>
+                          <a href="../reduce/reduce_the_footprint.html">Reduce the Footprint Policy</a>
                         </li>
                     </ul>
                     </li>
@@ -256,30 +269,31 @@ layout: base
              </ul>
            </li>
      </ul>
-
-             <li>
-              <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3">
-                <span>About</span>
-              </button>
-              <ul id="sidenav-3" class="usa-nav-submenu">
-
-      <li>
-      <a href="../about/getstarted.html">Get Started</a>
+     <li>
+      <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3">
+        <span>About</span>
+      </button>
+      <ul id="sidenav-3" class="usa-nav-submenu">
+<li>
+<a href="../about/getstarted.html">Get Started</a>
+</li>
+            <li>
+<a href="../about/About P.gov.html">About Performance.gov</a>
+</li>
+<li>
+<a href="../about/FAQ.html">FAQs</a>
+</li>
+<li>
+<a href="../about/framework_about.html">Performance Framework </a>
+</li>
+</ul>
+</li>
+  <li>
+        <a class="usa-nav-link" href="../about/news.html">
+          <span>News</span>
+        </a>
       </li>
-      <li>
-        <a href="../about/news.html">News</a>
-      </li>
-                    <li>
-        <a href="../about/About P.gov.html">About Performance.gov</a>
-      </li>
-      <li>
-        <a href="../about/FAQ.html">FAQs</a>
-      </li>
-      <li>
-        <a href="../about/framework_about.html">Performance Framework </a>
-        </li>
       </ul>
-      </li>        </ul>
   <form class="usa-search usa-search-small" action="https://search.usa.gov/search" accept-charset="UTF-8"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
     <div role="search">
       <label class="usa-sr-only" for="search-field-small">Search small</label>
@@ -304,19 +318,7 @@ layout: base
    <div class="usa-footer-primary-section">
      <div class="usa-grid-full">
        <nav class="usa-footer-nav usa-width-one-whole">
-         <ul class="usa-unstyled-list usa-width-one-sixth usa-footer-primary-content">
-           <li class="usa-footer-primary-link">
-             <h4>Initiatives</h4>
-           </li>
-           <div class="one-column">
-             <li><a href="../reduce/reduce_the_footprint.html">Reduce the Footprint Policy</a></li>
-          <li><a href="https://www.foia.gov">FOIA Portal</a></li>
-           <li><a href="https://www.permits.performance.gov/">Permitting</a></li>
-                  <li><a href="../elimination/elimination_of_unnecessary_agency_reports.html">Elimination of Unnecessary Agency Reports</a></li>
-            <li><a href="https://opportunity.census.gov/">The Opportunity Project </a></li>
-             <li><a href="https://www.sustainability.gov/">Sustainability.gov </a></li>
-  </div>
-        </ul>
+
          <ul class="usa-unstyled-list usa-width-one-sixth usa-footer-primary-content">
            <li class="usa-footer-primary-link">
              <h4>Policy</h4>
@@ -352,6 +354,7 @@ layout: base
             <li><a href="https://www.digitalgov.gov/services/dap/">Digital Analytics Program</a></li>
             <li><a href="https://labs.data.gov/dashboard/">Open Data Dashboard</a></li>
                <li><a href="https://www.usds.gov/">USDS.gov</a></li>
+               <li><a href="https://opportunity.census.gov/">The Opportunity Project</a></li>
   </div>
          </ul>
          <ul class="usa-unstyled-list usa-width-one-third usa-footer-primary-content">
@@ -359,6 +362,9 @@ layout: base
               <h4>Other Information and Services</h4>
               </li>
               <div class="two-columns">
+                <li><a href="https://www.foia.gov">FOIA Portal</a></li>
+<li><a href="https://www.permits.performance.gov/">Permitting</a></li>
+<li><a href="https://www.sustainability.gov/">Sustainability.gov </a></li>
                 <li><a href="https://www.trade.gov/">Trade.gov</a></li>
             <li><a href="https://www.export.gov/welcome">Export.gov</a></li>
             <li><a href="https://www.itdashboard.gov/">IT Dashboard</a></li>
@@ -411,7 +417,7 @@ layout: base
            <h3 class="usa-footer-contact-heading">Contact Us</h3>
 
            <a href="mailto:PgovSupport@GSA.gov">PgovSupport@GSA.gov</a>
-             <p>Content is updated every 3 months; last on May 8, 2018</p>
+             <p>Content is updated every 3 months; last on May 4, 2018</p>
               <p><a href="../about/Performance.gov-Reports.xlsx" alt="performance data download" style="color:#205493;"><b>Download Performance Data Report </b></a></p>
          </address>
        </div>
