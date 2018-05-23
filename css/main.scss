@@ -151,3 +151,12 @@ $background-color-banner: #323a45;
     width: 400px; /* Full width */
     padding: 20px; /* Some padding */
 }
+    .usa-grid .usa-width-one-half,
+    .usa-grid-full .usa-width-one-half {
+      float: left;
+      display: block;
+      margin-right: 4.82916%;
+      width: 47.58542%; }
+      .usa-grid .usa-width-one-half:last-child,
+      .usa-grid-full .usa-width-one-half:last-child {
+        margin-right: 0; }

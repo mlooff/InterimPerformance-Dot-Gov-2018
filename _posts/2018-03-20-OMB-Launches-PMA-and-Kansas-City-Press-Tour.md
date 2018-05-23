@@ -3,6 +3,8 @@ layout: post
 
 title: "OMB Launches President’s Management Agenda and Kansas City Listening Tour"
 
+rating: "1"
+
 permalink: /2018-03-20-OMB-Launches-PMA-and-Kansas-City-Press-Tour.md/
 
 description: Today, the White House Office of Management and Budget (OMB) kicked off a two-day listening tour to engage federal workers and citizens in discussions about improving government services.
