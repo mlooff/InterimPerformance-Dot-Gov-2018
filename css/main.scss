@@ -21,6 +21,9 @@
 }
 
 
+/*featured section*/
+
+
 $background-color-banner: #323a45;
 
 .usa-banner {
@@ -136,27 +139,11 @@ $background-color-banner: #323a45;
  width: 100%;
  padding: 3rem; }
 
-/*featured section*/
-.featured {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
-}
+/*stylying for post header photo*/
 
-.featured .featured-content {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 400px; /* Full width */
-    padding: 20px; /* Some padding */
+ .hero {
+   background-image: url(../img/page-feature/hire-us.jpg);
+background-position: center;
+background-size: cover;
+padding: 0;
 }
-    .usa-grid .usa-width-one-half,
-    .usa-grid-full .usa-width-one-half {
-      float: left;
-      display: block;
-      margin-right: 4.82916%;
-      width: 47.58542%; }
-      .usa-grid .usa-width-one-half:last-child,
-      .usa-grid-full .usa-width-one-half:last-child {
-        margin-right: 0; }

@@ -16,29 +16,35 @@ agency_dir: performance-news
   <section class="usa-section usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
-      <div class="usa-media_block-body">
+      <div class="usa-width-one-whole usa-media_block-body">
         <h2>Featured Stories</h2>
         <br>
     </div>
-  {% for project in site.posts %}
-    <div class="usa-width-one-half usa-width-tablet">
-  {% include featured.html
-    image_src=project.image
-    image_alt=project.image_accessibility
-    image_icon=project.image_icon
-    agency=project.agency
-    tagline=project.title
-    date=project.date
-    description=project.excerpt
-    link=project.permalink
-    tags=project.tags
-    %}
-  </div>
-{% endfor %}
+    {% for project in site.posts %}
+      <div class="usa-width-one-half usa-width-tablet">
+        {% include featured.html
+         image_src=project.image
+         image_alt=project.image_accessibility
+         image_icon=project.image_icon
+         agency=project.agency
+         tagline=project.title
+         date=project.date
+         description=project.excerpt
+         link=project.permalink
+         tags=project.tags
+        %}
+      </div>
+    {% endfor %}
   </div>
 </section>
   {% include themes.html %}
-
+  <section class="usa-section usa-graphic_list">
+    <div class="usa-grid usa-graphic_list-row">
+        <div class="usa-width-one-whole usa-media_block">
+          <h2>Recent News</h2>
+        </div>
+    </div>
+  </section>
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
