@@ -7,29 +7,45 @@ layout: navigation_PMA
      <div class="usa-width-one-half usa-media_block">
        <div class="usa-media_block-body">
          <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/performance-news/performance-news.html">
-           <span class="usa-sr-only"></span>
+           <span class="usa-sr-only"></a></span>
            Back to News
-         </a>
-        <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+
+           <p class="card-tag-post"> {{ page.agency }}</p>
+              <h1-post>{{ page.title }}
+              </h1>
       </div>
     </div>
-  <div class="usa-width-one-half usa-media_block">
-      <img class="post" src="{{ site.baseurl }}{{ page.image }}">
+<div class="usa-width-one-half">
+    <!-- <img src="{{ site.baseurl }}{{ page.image }}">-->
     </div>
   </div>
   </div>
 </section>
+
 <section class="usa-section usa-graphic_list">
    <div class="usa-grid usa-graphic_list-row">
-      <div class="usa-two-thirds usa-media_block">
+      <div class="usa-width-two-thirds usa-media_block">
         <div class="usa-media_block-body">
+          {% include post-author.html context="page" %}
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+          </p>
+          <span class="post-tags" itemprop="keywords">
+            {% for tag in page.tags %}
+              <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+              </a>
+            {% endfor %}
           <p>
             {{ content }}
           </p>
       </div>
-      <div class="usa-one-third usa-media_block">
-            {{ content }}
-      </div>
+    </div>
+      <aside class="usa-width-one-third section-info section-info-gray">
+            <ul>
+              <li class="section-info-list-item">
+                {{ page.agency }}
+              </li>
+            </ul>
+      </aside>
     </div>
   </section>
 

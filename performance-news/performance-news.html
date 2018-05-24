@@ -8,7 +8,7 @@ agency_dir: performance-news
       <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
           <h1>Performance News</h1>
-          <p>Latest Upadates on How Agencies Are Serving the American People</p>
+          <p>Latest Updates on How Agencies Are Serving the American People</p>
       </div>
     </div>
   </section>
@@ -21,6 +21,7 @@ agency_dir: performance-news
         <br>
     </div>
     {% for project in site.posts %}
+    {% if project.rating == "1" %}
       <div class="usa-width-one-half usa-width-tablet">
         {% include featured.html
          image_src=project.image
@@ -34,6 +35,7 @@ agency_dir: performance-news
          tags=project.tags
         %}
       </div>
+    {% endif %}
     {% endfor %}
   </div>
 </section>
@@ -49,7 +51,7 @@ agency_dir: performance-news
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
         <div class="usa-width-one-third usa-media_block">
-          <a class="twitter-timeline" data-width="100%" data-height="60rem" data-theme="light" data-link-color="#0071bc" href="https://twitter.com/PerformanceGov">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
+          <a class="twitter-timeline" data-width="100%" data-height="60rem" data-theme="dark" data-link-color="#0071bc" href="https://twitter.com/PerformanceGov">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
         </div>
         {% for project in site.posts %}
           <div class="usa-width-one-third usa-width-tablet">
