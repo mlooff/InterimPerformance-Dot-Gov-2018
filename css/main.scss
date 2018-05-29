@@ -1,55 +1,5 @@
 ---
 ---
-body
-*, *:before, *:after { box-sizing: border-box; }
-
-.load-more-container {
-  /*background: #fff;
-  width: 500px;
-  min-height: 500px;
-  margin: 20px auto;*/
-  position: relative;
-  ul {
-    list-style-type: none;
-    padding: 0;
-    &:after { content: ""; display: table; clear: both; }
-    li {
-
-
-      &:nth-child(1n + 2) {
-        max-height: 0;
-        opacity: 0;
-        transition: 0.1s ease-in;
-      }
-    }
-  }
-  .load-more-btn {
-    width: 150px;
-    line-height: 40px;
-    border-radius: 2px;
-    margin: 0 auto;
-    display: block;
-    background: #219150;
-    color: #fff;
-    cursor: pointer;
-    text-align: center;
-    &:hover { background: green; }
-    .loaded { display: none; }
-  }
-  #load-more {
-    display: none;
-    &:checked ~ ul li:nth-child(1n + 2) {
-      max-height: 999px;
-      opacity: 1;
-      transition: 0.2s ease-in;
-    }
-    &:checked ~ .load-more-btn {
-      .loaded { display: block; }
-      .unloaded { display: none; }
-    }
-  }
-}
-
 
 .usa-nav-secondary {
   @media screen and (min-width: 951px) {
@@ -327,3 +277,6 @@ $background-color-banner: #323a45;
    letter-spacing: 0.5px;
    text-transform: uppercase;
    color: #323a45; }
+
+
+   /* themes accorion */
