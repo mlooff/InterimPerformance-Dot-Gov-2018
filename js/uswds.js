@@ -1441,6 +1441,7 @@ module.exports = function DOMLoaded (cb) {
   }
 };
 
+
 function isFunction (arg) {
   return (typeof arg === 'function');
 }
