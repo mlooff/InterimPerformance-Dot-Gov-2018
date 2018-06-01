@@ -1,3 +1,4 @@
+
 /*! uswds v1.1.0 */
 html {
   box-sizing: border-box;
@@ -147,6 +148,17 @@ text-align: left;
 background: #e4e2e0;
 color: #000000;
 align: center;
+
+}
+
+#blue-logo {
+color: #205493;
+
+}
+
+#small-blue-logo {
+color: #0071bc;
+font-size: 2.3rem;
 
 }
 
@@ -868,7 +880,7 @@ button,
 
 }
 
-.usa-button..usa-button-red:visited {
+.usa-button.usa-button-red:visited {
   background-color: #cd2026;
   color: #ffffff;
   padding: 1.5rem 2.3rem;
@@ -1681,15 +1693,49 @@ legend {
   width: 7rem;
 }
 
-.usa-label, .usa-label-big {
-  background-color: #0071bc;
+ .usa-label-big {
+  background-color: #981b1e;
   border-radius: 0.3rem;
   color: #ffffff;
-  font-size: 1.5rem;
-  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  margin: 0.5rem;
   padding: 0.1rem 0.7rem;
-  text-transform: uppercase;
+  float: right;
+
 }
+
+.usa-label  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  padding: 0.3rem
+
+}
+
+.usa-label a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.usa-label-featured  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  margin-top: 1em;
+  padding: 0.3rem
+
+}
+
+.usa-label-featured a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 
 .usa-label:only-of-type, .usa-label-big:only-of-type {
   margin-right: 0;
@@ -1799,6 +1845,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-size: 1.7rem;
 }
 
@@ -1877,6 +1924,38 @@ h6 {
   margin-bottom: .5em;
   margin-top: 1.5em;
 }
+
+h1-post,
+h2-post,
+h3-post,
+ {
+  clear: both;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1.3;
+  margin-bottom: .5em;
+  margin-top: 0em;
+}
+
+
+#featured
+ {
+  clear: both;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #02bfe7;
+
+}
+
+h1-post {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #02bfe7;
+}
+
 
 h1 {
   font-size: 4rem;
@@ -2671,7 +2750,7 @@ dfn {
   }
   .usa-banner-button[aria-expanded=true]:hover::after {
     background-image: url("../img/angle-arrow-up-primary-hover.png");
-    background-image: url("../img/angle-arrow-up-primary-hover.svg")";
+    background-image: url("../img/angle-arrow-up-primary-hover.svg");
   }
   .usa-banner-button[aria-expanded=true]::after {
     background-position-y: 1px;
@@ -3417,7 +3496,7 @@ input.usa-input-medium {
 }
 
  .usa-logo-img {
-   width: 7%
+   width: 7%;
    vertical-align: middle;
 
  }
@@ -4620,7 +4699,6 @@ border-top: 1.6rem solid #205493;
   padding-bottom: 3rem;
   padding-right: 0rem;
 }
-}
 
 .usa-section-other {
 background-color: #323a45;
@@ -4743,7 +4821,6 @@ height: 100%;
   margin: 20px;
 }
 
-<style scoped>
     .dark-bg {
         background-color: #212121;
     }
@@ -4987,4 +5064,12 @@ height: 100%;
   position: absolute;
   top: 0;
   transition: all 0.2s ease-in-out;
+}
+
+img .news {
+  display: block;
+  max-width:500px;
+  max-height:95px;
+  width: auto;
+  height: auto;
 }
