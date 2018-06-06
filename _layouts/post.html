@@ -6,9 +6,9 @@ layout: navigation_PMA
    <div class="usa-grid usa-graphic_list-row">
      <div class="usa-width-one-half usa-media_block">
        <div class="usa-media_block-body">
-         <a class="back-blog link-arrow-left" href="{{ site.baseurl }}/performance-news/performance-news.html">
-           <span class="usa-sr-only"></a></span>
-           Back to News
+         <a href="{{ site.baseurl }}/performance-news/performance-news.html">
+
+           &larr; Back to News</a>
 
            <p class="card-tag-post"> {{ page.agency }}</p>
               <h1-post>{{ page.title }}
@@ -44,7 +44,7 @@ layout: navigation_PMA
             {% if page.previous %}
               <a href="{{ site.baseurl }}{{ page.previous.url }}">
                 <span class="link-arrow-left">
-                  Previous Post
+                &larr;  Previous Post
                 </span>
                 <h5>&ldquo;{{ page.previous.title }}&rdquo;</h5>
               </a>
@@ -54,7 +54,7 @@ layout: navigation_PMA
             {% if page.next %}
                 <a href="{{ site.baseurl }}{{ page.next.url }}">
                   <span class="link-arrow-right">
-                    Next Post
+                    Next Post &rarr;
                                     </span>
                   <h5>&ldquo;{{ page.next.title }}&rdquo;</h5>
                 </a>
@@ -63,18 +63,16 @@ layout: navigation_PMA
         </section>
       {% endif %}
 
-      {% include related-posts.html %}
+
 
     </div>
       <aside class="usa-width-one-third section-info section-info-gray">
             <ul>
-              <li class="section-info-list-item">
-                {{ page.agency }}
-              </li>
+              {% include related-posts.html %}
             </ul>
             <div class="margin-spacing pad-top-bottom background-medium">
             <div class="usa-grid usa-flex-baseline">
-              <h3>Want to see your story on Performance.gov?</h3>
+              <h2>Want to see your story on Performance.gov?</h2>
               <div>
         <a href="/contact/"><button class="usa-button usa-button-secondary">Contact us</button></a>
       </div>

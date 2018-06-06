@@ -1864,9 +1864,7 @@ a:hover, a:active {
   color: #205493;
 }
 
-a:visited {
-  color: #4c2c92;
-}
+
 
 a:disabled {
   color: #0071bc;

@@ -222,7 +222,7 @@ $background-color-banner: #323a45;
       .section-info > ul:first-of-type {
         border-top: 1rem solid #00cfff;
         border-color: #046b99;
-        padding-top: 1.5rem; } }
+        padding-top: .5rem; } }
   .section-info blockquote {
     border-left: none;
     color: #046b99;
@@ -302,8 +302,6 @@ $background-color-banner: #323a45;
 }
 /*blockquote*/
 
-
-
 .testimonial-blockquote {
     font-size: 1em;
     width: 100%;
@@ -324,6 +322,13 @@ $background-color-banner: #323a45;
   position: absolute;
   left: 10px;
   top: -10px; }
-  
+
 .testimonial-blockquote ::after {
   content: ''; }
+
+/*posts page*/
+.relatedPosts {
+  margin-bottom: 3rem;
+  padding-top: 0rem;
+
+}

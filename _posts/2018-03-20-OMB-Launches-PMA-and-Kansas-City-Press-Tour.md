@@ -20,6 +20,7 @@ authors:
 tags:
 - PMA
 - Event
+- APGs
 
 
 ---
@@ -33,5 +34,4 @@ We know that the public is frustrated with government’s perceived inability to
 
 For the first time, the President’s Management Agenda was presented outside of Washington, D.C. Kansas City was chosen because it is home to a large federal workforce and is an important hub of future federal innovation. Click here to view a replay of the event.
 
-
-INSERT VIDEO HERE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i5fUVcmMz_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
