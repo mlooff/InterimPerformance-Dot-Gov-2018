@@ -29,15 +29,19 @@ layout: navigation_PMA
           {% include post-author.html context="page" %}
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
           </p>
+
           <span class="post-tags" itemprop="keywords">
             {% for tag in page.tags %}
-              <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
+              <span class="usa-label">
+              <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
               </a>
+            </span>
             {% endfor %}
           <p>
             {{ content }}
           </p>
       </div>
+
       {% if page.previous or page.next %}
         <section class="post-pagination usa-grid">
           <div class="usa-width-one-half">

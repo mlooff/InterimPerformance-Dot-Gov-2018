@@ -13,5 +13,11 @@ layout: navigation
       <p>{{ post.date | date: '%B %d, %Y' }}</p>
 
     <p>{{ post.description}}</p>
+
+    {% for tag in include.tags %}
+      <span class="usa-label">
+        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
+      </span>
+      {% endfor %}
 </div>
 {% endfor %}
