@@ -15,8 +15,8 @@ authors:
 - mhz
 
 tags:
-- President's Management Agenda
-- APGs
+- PMA
+- APG
 
 ---
 

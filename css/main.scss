@@ -345,3 +345,80 @@ border: .5rem solid #0071bc;
     font-style: normal;
     font-weight: bold;
     margin-top: 1em; }
+
+/*grid for themes*/
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  margin-right: 7rem;
+  margin-left: 7rem;
+}
+
+#ltblue-grid {
+  background: #0071bc;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#ltblue-grid:hover {
+  background: #ffffff;
+  color: #0071bc;
+  cursor: pointer;
+}
+
+#ltblue-grid a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#ltblue-grid a:hover {
+  color: #0071bc;
+}
+
+
+#blue-grid {
+  background: #205493;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#blue-grid:hover {
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#brblue-grid {
+  background: #02bfe7;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#brblue-grid:hover {
+  background: #ffffff;
+  cursor: pointer;
+}
+
+#ukblue-grid {
+  background: #046b99;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  line-height: 2rem;
+}
+
+#ukblue-grid:hover {
+  background: #ffffff;
+  cursor: pointer;
+}

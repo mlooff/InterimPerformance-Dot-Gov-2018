@@ -1,17 +1,54 @@
 ---
-layout: navigation
+layout: navigation_PMA
 ---
 
-<h1>{{ page.title }}</h1>
-{% assign numberof = page.posts | size %}
+<section class="usa-section usa-section-dark usa-graphic_list">
+  <div class="usa-grid usa-graphic_list-row">
+    <div class="usa-width-one-whole usa-media_block">
+      <a href="{{ site.baseurl }}/performance-news/performance-news.html" style="text-decoration:none;">
+        <b>&#10094; &nbsp; Back to News</a></b>
+      <h1>{{ page.title }}</h1>
+      {% assign numberof = page.posts | size %}
+      <p>{{ page.excerpt }}
+  </div>
+</div>
+</section>
+
+
+
+<section class="usa-section usa-graphic_list">
+  <div class="usa-grid usa-graphic_list-row">
+    <div class="usa-width-one-whole usa-media_block">
+        <div class="usa-media_block-body">
+        {% for post in site.tags[page.tag] %}
+        <p class="card-tag">{{ post.date | date: '%B %d, %Y' }}</p>
+          <a href="{{ post.url | absolute_url }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.description}}</p>
+
+          {% for tag in include.tags %}
+            <span class="usa-label">
+              <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
+            </span>
+            {% endfor %}
+            <hr align="left">
+            {% endfor %}      </div>
+    </div>
+
+<!--
+<section class="usa-grid usa-section">
+  <div class="usa-width-one-fourth">
+    <img src="{{ site.baseurl }} {{ post.image }}">
+  </div>
+  <div class="usa-width-three-fourths">
+
 <div>
-{{ numberof }} {% if numberof == 1 %}post{% else %}posts{% endif %} tagged {{ page.title }}
-{% for post in site.tags[page.tag] %}
+  {% for post in site.tags[page.tag] %}
+<p class="card-tag">{{ post.date | date: '%B %d, %Y' }}</p>
     <a href="{{ post.url | absolute_url }}">
       <h3>{{ post.title }}</h3>
     </a>
-      <p>{{ post.date | date: '%B %d, %Y' }}</p>
-
     <p>{{ post.description}}</p>
 
     {% for tag in include.tags %}
@@ -19,5 +56,7 @@ layout: navigation
         <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
       </span>
       {% endfor %}
+      <hr align="left">
+      {% endfor %}
 </div>
-{% endfor %}
+</section>
