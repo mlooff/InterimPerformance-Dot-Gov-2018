@@ -2,5 +2,5 @@
 layout: tag
 tag: strategic-objectives
 title: Strategic Objectives
-excerpt: this text will appear as an excerpt on the theme/tag landing page
+excerpt: Updated and revised every four years, strategic objectives reflect the outcome or management impacts the agency is trying to achieve over the term of an Administration.
 ---
