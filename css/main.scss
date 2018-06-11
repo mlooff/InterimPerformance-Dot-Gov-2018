@@ -354,6 +354,18 @@ border: .5rem solid #0071bc;
   grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   margin-right: 7rem;
   margin-left: 7rem;
+
+}
+
+@media screen and (min-width: 800px) {
+  .grid {
+    width: 1200px;
+    margin-left: auto ;
+  margin-right: auto ;
+
+
+  }
+
 }
 
 #ltblue-grid {
