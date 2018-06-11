@@ -15,7 +15,7 @@ authors:
 - mhz
 
 tags:
-- PMA
+- strategic objectives
 - APG
 
 ---
