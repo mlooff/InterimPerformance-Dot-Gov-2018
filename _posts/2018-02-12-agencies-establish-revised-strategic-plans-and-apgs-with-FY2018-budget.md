@@ -15,7 +15,7 @@ authors:
 - mhz
 
 tags:
-- strategic objectives
+- strategic-objectives
 - APG
 
 ---
