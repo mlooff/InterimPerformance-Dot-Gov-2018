@@ -350,11 +350,13 @@ border: .5rem solid #0071bc;
 /*grid for themes*/
 
 .grid {
+  position: relative;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   margin-right: 7rem;
   margin-left: 7rem;
+  padding: 2.5% 0;
 
 }
 
@@ -363,6 +365,7 @@ border: .5rem solid #0071bc;
     width: 1200px;
     margin-left: auto ;
     margin-right: auto ;
+    padding: 0 0;
   }
 }
 
@@ -370,28 +373,29 @@ border: .5rem solid #0071bc;
   background: #0071bc;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 5% 5%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  line-height: 2rem;
-  height: 100px;
+  height: 125px;
   margin: 6px;
+  font-weight: bold;
 }
 
 #ltblue-grid:hover {
-    background: #ffffff;
-    color: #0071bc;
-    cursor: pointer;
+  background: #ffffff;
+  color: #0071bc;
 }
 
-
+#ltblue-grid:hover a {
+  background: #ffffff;
+  color: #0071bc;
+}
 
 #ltblue-grid a {
   color: #ffffff;
   text-decoration: none;
-}
 
-#ltblue-grid a:hover {
-  color: #0071bc;
 }
 
 
@@ -399,46 +403,83 @@ border: .5rem solid #0071bc;
   background: #205493;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 5% 5%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  line-height: 2rem;
-    height: 100px;
-    margin: 6px;
+  height: 125px;
+  margin: 6px;
+  font-weight: bold;
 }
 
 #blue-grid:hover {
   background: #ffffff;
-  cursor: pointer;
+  color: #0071bc;
 }
 
+#blue-grid:hover a {
+  background: #ffffff;
+  color: #205493;
+}
+
+#blue-grid a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
 #brblue-grid {
-  background: #02bfe7;
+  background: #00a6d2;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 5% 5%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  line-height: 2rem;
-  height: 100px;
+  height: 125px;
   margin: 6px;
+  font-weight: bold;
 }
 
 #brblue-grid:hover {
   background: #ffffff;
-  cursor: pointer;
+  color: #0071bc;
+}
+
+#brblue-grid:hover a {
+  background: #ffffff;
+  color: #00a6d2;
+}
+
+#brblue-grid a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #ukblue-grid {
   background: #046b99;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 5% 5%;
+  padding-left: 1%;
+  padding-right: 1%;
   text-align: center;
-  line-height: 2rem;
-  height: 100px;
+  height: 125px;
   margin: 6px;
+  font-weight: bold;
 }
 
 #ukblue-grid:hover {
   background: #ffffff;
-  cursor: pointer;
+  color: #0071bc;
+}
+
+#ukblue-grid:hover a {
+  background: #ffffff;
+  color: #046b99;
+}
+
+#ukblue-grid a {
+  color: #ffffff;
+  text-decoration: none;
 }
