@@ -39,7 +39,8 @@ agency_dir: performance-news
     {% endfor %}
   </div>
 </section>
-  {% include themes.html %}
+   {% include themes.html %}<!--themes include for css grid; NOT IE compatible-->
+  {% include themes-2.html %} <!--themes include for div grid; IE compatible-->
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
