@@ -356,7 +356,7 @@ border: .5rem solid #0071bc;
   grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   margin-right: 7rem;
   margin-left: 7rem;
-  padding: 2.5% 0;
+  padding: 2% 0;
 
 }
 
@@ -369,17 +369,19 @@ border: .5rem solid #0071bc;
   }
 }
 
+
+
 #ltblue-grid {
   background: #0071bc;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 5% 5%;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: center;
-  height: 125px;
   margin: 6px;
+  height: 90px;
   font-weight: bold;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #ltblue-grid:hover {
@@ -396,6 +398,7 @@ border: .5rem solid #0071bc;
   color: #ffffff;
   text-decoration: none;
 
+
 }
 
 
@@ -403,13 +406,13 @@ border: .5rem solid #0071bc;
   background: #205493;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 5% 5%;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: center;
-  height: 125px;
   margin: 6px;
+  height: 90px;
   font-weight: bold;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #blue-grid:hover {
@@ -432,13 +435,13 @@ border: .5rem solid #0071bc;
   background: #00a6d2;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 5% 5%;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: center;
-  height: 125px;
+  height: 90px;
   margin: 6px;
   font-weight: bold;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #brblue-grid:hover {
@@ -460,13 +463,13 @@ border: .5rem solid #0071bc;
   background: #046b99;
   color: #ffffff;
   font-size: 1.5rem;
-  padding: 5% 5%;
-  padding-left: 1%;
-  padding-right: 1%;
   text-align: center;
-  height: 125px;
+  height: 90px;
   margin: 6px;
   font-weight: bold;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
 }
 
 #ukblue-grid:hover {
