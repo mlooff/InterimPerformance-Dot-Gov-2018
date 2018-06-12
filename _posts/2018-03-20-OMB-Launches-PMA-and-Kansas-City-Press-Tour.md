@@ -19,7 +19,7 @@ authors:
 
 tags:
 - PMA
-- CAP-Goal
+- CAP Goal
 - OMB
 - event
 
