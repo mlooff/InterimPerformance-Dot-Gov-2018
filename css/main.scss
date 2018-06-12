@@ -1,6 +1,10 @@
 ---
 
 ---
+@import "featuredcards";
+@import "newscards";
+@import "themes";
+@import "newsposts";
 
 .usa-nav-secondary {
   @media screen and (min-width: 951px) {
@@ -28,23 +32,13 @@
   }
 }
 
-.usa-flex {
-  display: flex;
-}
-
-.usa-flex-wrap {
-  flex-wrap: wrap;
-}
-
-
-/*featured section*/
-
 
 $background-color-banner: #323a45;
 
 .usa-banner {
   background-color: $background-color-banner;
 }
+<<<<<<< HEAD
 
 
 .card[aria-hidden=true] {
@@ -480,3 +474,5 @@ border: .5rem solid #0071bc;
   color: #ffffff;
   text-decoration: none;
 }
+=======
+>>>>>>> 4a5ed45624cb102eecdcfa5cbb94e424705a8e70
