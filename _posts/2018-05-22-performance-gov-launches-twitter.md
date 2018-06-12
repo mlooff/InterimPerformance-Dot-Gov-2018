@@ -16,9 +16,6 @@ authors:
 - Author 2
 
 tags:
-- Social Media
-- Announcement
-- APG
 
 ---
 

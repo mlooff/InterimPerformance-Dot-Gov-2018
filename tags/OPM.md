@@ -1,6 +1,6 @@
 ---
 layout: tag
-tag: international affairs
-title: International Affairs
+tag: OPM
+title: Office of Personnel Management
 excerpt: this text will appear as an excerpt on the theme/tag landing page
 ---
