@@ -13,13 +13,13 @@ agency_dir: performance-news
     </div>
   </section>
 
-  <section class="usa-section usa-section usa-graphic_list">
+  <section class="usa-section-light usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
       <div class="usa-width-one-whole usa-media_block-body">
         <h2>Featured Stories</h2>
         <br>
-    </div>
+      </div>
     {% for project in site.posts %}
     {% if project.rating == "1" %}
       <div class="usa-width-one-half usa-width-tablet">
@@ -40,7 +40,7 @@ agency_dir: performance-news
   </div>
 </section>
    <!--{% include themes.html %}<!--themes include for css grid; NOT IE compatible-->
-  {% include themes-2.html %} <!--themes include for div grid; IE compatible-->
+
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
@@ -48,6 +48,7 @@ agency_dir: performance-news
         </div>
     </div>
   </section>
+  
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
@@ -73,3 +74,5 @@ agency_dir: performance-news
         {% endfor %}
       </div>
   </section>
+
+    {% include themes-2.html %} <!--themes include for div grid; IE compatible-->
