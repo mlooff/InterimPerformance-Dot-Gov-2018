@@ -14,12 +14,11 @@ description: Today, the White House Office of Management and Budget (OMB) kicked
 excerpt: Today, the White House Office of Management and Budget (OMB) kicked off a two-day listening tour to engage federal workers and citizens in discussions about improving government services.
 image: "/img/homepage_images/newhero2_v2 JPG.jpg"
 authors:
-- Author 1
-- Author 2
+- Office of Management and Budget
 
 tags:
 - PMA
-- CAP Goal
+- CAP goal
 - OMB
 - event
 

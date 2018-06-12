@@ -1,6 +1,6 @@
 ---
 layout: tag
-tag: natural-resources-and-environment
-title: Natural Resources and Environment
+tag: net interest
+title: Net Interest
 excerpt: this text will appear as an excerpt on the theme/tag landing page
 ---

@@ -11,13 +11,12 @@ excerpt: A new op-ed by Beth Angerman explains that the Federal government can c
 
 image: "../img/blog/whitehouse_reduced.jpeg"
 authors:
-- robert
-- mhz
+- Performance.gov Team
 
 tags:
-- CAP-Goal
+- CAP goal
 - PMA
-- general-government
+- general government
 
 ---
 
