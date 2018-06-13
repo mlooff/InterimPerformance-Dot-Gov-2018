@@ -9,7 +9,7 @@ description: A new op-ed by Beth Angerman explains that the Federal government c
 
 excerpt: A new op-ed by Beth Angerman explains that the Federal government can cut long-term costs and improve service by modernizing the way it runs payroll.
 
-image: "../img/blog/whitehouse_reduced.jpeg"
+image: "/img/blog/whitehouse_reduced.jpeg"
 authors:
 - Performance.gov Team
 
