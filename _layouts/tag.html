@@ -23,7 +23,7 @@ layout: navigation_PMA
         {% for post in site.tags[page.tag] %}
         <p class="card-tag">{{ post.date | date: '%B %d, %Y' }}</p>
           <a href="{{ post.url | absolute_url }}">
-            <h3>{{ post.title }}</h3>
+            <h3 style="margin-top:1em;">{{ post.title }}</h3>
           </a>
           <p>{{ post.description}}</p>
 
@@ -35,28 +35,3 @@ layout: navigation_PMA
             <hr align="left">
             {% endfor %}      </div>
     </div>
-
-<!--
-<section class="usa-grid usa-section">
-  <div class="usa-width-one-fourth">
-    <img src="{{ site.baseurl }} {{ post.image }}">
-  </div>
-  <div class="usa-width-three-fourths">
-
-<div>
-  {% for post in site.tags[page.tag] %}
-<p class="card-tag">{{ post.date | date: '%B %d, %Y' }}</p>
-    <a href="{{ post.url | absolute_url }}">
-      <h3>{{ post.title }}</h3>
-    </a>
-    <p>{{ post.description}}</p>
-
-    {% for tag in include.tags %}
-      <span class="usa-label">
-        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
-      </span>
-      {% endfor %}
-      <hr align="left">
-      {% endfor %}
-</div>
-</section>
