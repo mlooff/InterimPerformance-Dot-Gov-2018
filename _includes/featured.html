@@ -1,3 +1,5 @@
+<!--FOR THE FEATURED NEWS SECTION ON THE PERFORMANCE-NEWS PAGE. -->
+
 {% assign card_link = include.link | prepend: site.baseurl %}
 
 
@@ -8,57 +10,31 @@
         <!--{% if include.agency %}
       <p class="card-tag">{{ include.agency }}</p>
     {% endif %}-->
+
     {% if card_link and include.tagline %}
-      <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 id="featured"><span style="color:#ffffff;">
+      <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 id="featured">
+        <span style="color:#ffffff;">
         {{ include.tagline }}
-      </span>
-      </h3></a>
+        </span>
+      </h3>
+      </a>
     {% endif %}
+
     <div id="left">
     {% if include.date %}
       <div class="card-date-featured" >{{ include.date | date: '%B %d, %Y' }}
-
       </div>
     {% endif %}
-  </div>
+    </div>
+
     <div id="right">
     {% for tag in include.tags %}
       <span class="usa-label">
-        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
+        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}
+        </a>
       </span>
       {% endfor %}
     </div>
       <!--<p style="color:#ffffff;" class="card-description">{{ include.description }}</p>-->
   </div>
 </div>
-
-<!--<article class="card">
-  <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
-    <img
-       alt="{{ include.image_alt }}"
-       class="card-image-bg"
-       src="{{ site.baseurl }}{{ include.image_src }}"
-    >
-    <div class="card-banner">
-      {% if include.agency %}
-        <p class="card-tag">{{ include.agency }}</p>
-      {% endif %}
-      {% if card_link and include.tagline %}
-        <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
-      {% endif %}
-      {% if include.date %}
-        <p class="card-date">{{ include.date | date: '%B %d, %Y' }} </p>
-      {% endif %}
-        <p class="card-description">{{ include.description }}</p>
-      {% for tag in include.tags %}
-      <span class="usa-label">
-        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
-      </span>
-      {% endfor %}
-        </div>
-    <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
-      Read more
-      <span class="usa-sr-only">about {{ include.tagline }}</span>
-    </a>
-  </div>
-</article>-->

@@ -1,3 +1,5 @@
+<!--GENERATES THE RELATED POSTS SECTION ON THE POST.HTML PAGES-->
+
 <section class="usa-grid usa-section posts_feature">
   {% if site.related_posts.size > 0 %}
     <h2>Related posts</h2>
@@ -30,7 +32,7 @@
         </span>
       </article>
     </li>
-    {% if forloop.index > 2 %}
+    {% if forloop.index > 2 %} <!--CHANGE THIS NUMBER TO DISPLAY MORE RELATED POSTS-->
       {% break %}
     {% endif %}
     {% endfor %}
