@@ -23,7 +23,10 @@ layout: navigation_PMA
         <div class="usa-media_block-body">
         {% for post in site.tags[page.tag] %}
         <p class="card-tag">{{ post.date | date: '%B %d, %Y' }}</p>
-          <a href="{{ post.url | absolute_url }}">
+
+link=project.permalink
+
+          <a href="{{ post.permalink }}">
             <h3 style="margin-top:1em;">{{ post.title }}</h3>
           </a>
           <p>{{ post.description}}</p>
