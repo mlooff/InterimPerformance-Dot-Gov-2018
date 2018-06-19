@@ -8,18 +8,18 @@ agency_dir: performance-news
       <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
           <h1>Performance News</h1>
-          <p>Latest updates on how agencies are serving the American people</p>
+          <p>Latest Updates on How Agencies Are Serving the American People</p>
       </div>
     </div>
   </section>
 
-  <section class="usa-section-light usa-section usa-graphic_list">
+  <section class="usa-section usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
       <div class="usa-width-one-whole usa-media_block-body">
         <h2>Featured Stories</h2>
         <br>
-      </div>
+    </div>
     {% for project in site.posts %}
     {% if project.rating == "1" %}
       <div class="usa-width-one-half usa-width-tablet">
@@ -39,7 +39,7 @@ agency_dir: performance-news
     {% endfor %}
   </div>
 </section>
-
+  {% include themes.html %}
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
         <div class="usa-width-one-whole usa-media_block">
@@ -47,14 +47,11 @@ agency_dir: performance-news
         </div>
     </div>
   </section>
-
   <section class="usa-section usa-graphic_list">
     <div class="usa-grid usa-graphic_list-row">
       <div class="usa-flex usa-flex-wrap">
         <div class="usa-width-one-third usa-media_block">
-        <!--  <div id="border">-->
-          <a class="twitter-timeline" data-width="100%" data-height="50rem" data-theme="light" data-link-color="#0071bc" data-border-color="#0071bc" href="https://twitter.com/PerformanceGov" >Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
-      <!--  </div>-->
+          <a class="twitter-timeline" data-width="100%" data-height="60rem" data-theme="dark" data-link-color="#0071bc" href="https://twitter.com/PerformanceGov">Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
         </div>
         {% for project in site.posts %}
           <div class="usa-width-one-third usa-width-tablet">
@@ -73,8 +70,3 @@ agency_dir: performance-news
         {% endfor %}
       </div>
   </section>
-
-  {% comment %}
-  <!-- {% include themes.html %} themes include for css grid; NOT IE compatible
-  {% include themes-2.html %} themes include for div grid; IE compatible -->
-{% endcomment %}
