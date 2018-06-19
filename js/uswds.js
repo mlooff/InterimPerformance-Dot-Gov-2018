@@ -319,9 +319,6 @@ var now = function() {
   return root.Date.now();
 };
 
-
-
-
 /**
  * Creates a debounced function that delays invoking `func` until after `wait`
  * milliseconds have elapsed since the last time the debounced function was
@@ -1440,7 +1437,6 @@ module.exports = function DOMLoaded (cb) {
     });
   }
 };
-
 
 function isFunction (arg) {
   return (typeof arg === 'function');
