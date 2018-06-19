@@ -85,23 +85,3 @@ layout: navigation_PMA
       </aside>
     </div>
   </section>
-
-
-      <!--{% include post-author.html context="page" %}
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-      </p>
-      <span class="post-tags" itemprop="keywords">
-        {% for tag in page.tags %}
-          <a class="usa-label" href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | slugify }}/">{{ tag }}
-          </a>
-        {% endfor %}
-      </span>
-        {% if page.image and page.image_feature_small == true %}
-        <img class="image-feature-small" src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.image_accessibility }}">
-      {% endif %}
-      {{ content }}
-    </div>
-  </div>
-</div>
-</div>
-</section>
