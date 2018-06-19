@@ -1,6 +1,9 @@
 ---
 
+
 ---
+@import "banner";
+@import "nav";
 @import "featuredcards";
 @import "newscards";
 @import "themes";
@@ -38,4 +41,3 @@ $background-color-banner: #323a45;
 .usa-banner {
   background-color: $background-color-banner;
 }
-
