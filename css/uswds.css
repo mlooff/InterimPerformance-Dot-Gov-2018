@@ -1709,7 +1709,27 @@ legend {
   border-radius: 0.3rem;
   color: #ffffff;
   font-size: 1.2rem;
-  margin: 0.5rem;
+  margin-right: .5em;
+  padding: 0.3rem
+
+}
+
+.usa-label:first-child  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: .5em;
+  padding: 0.3rem
+
+}
+
+.usa-label:last-child  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: .5em;
   padding: 0.3rem
 
 }
@@ -1864,9 +1884,7 @@ a:hover, a:active {
   color: #205493;
 }
 
-a:visited {
-  color: #4c2c92;
-}
+
 
 a:disabled {
   color: #0071bc;

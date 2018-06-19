@@ -19,16 +19,17 @@
       {% if include.date %}
         <p class="card-date">{{ include.date | date: '%B %d, %Y' }} </p>
       {% endif %}
-        <p class="card-description">{{ include.description }}</p>
+        <!--<p class="card-description">{{ include.description }}</p>-->
       {% for tag in include.tags %}
       <span class="usa-label">
-        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
+        <a href="{{ site.baseurl }}/tags/{{ tag }}/">{{ tag }}</a>
       </span>
       {% endfor %}
         </div>
-    <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
-      Read more
-      <span class="usa-sr-only">about {{ include.tagline }}</span>
-    </a>
+        <br />
+    <div class="card-cta" tabindex="0">
+      <a href="{{ card_link }}" style="text-decoration:none;">
+      <b><!--&#10094;--> &nbsp; Read More <!--&#10095;--></a></b>
+  </div>
   </div>
 </article>
