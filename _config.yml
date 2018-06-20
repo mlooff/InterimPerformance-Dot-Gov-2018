@@ -30,3 +30,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+repository: GSA/InterimPerformance-Dot-Gov-2018.github.io
+
+plugins:
+  - jekyll-redirect-from
