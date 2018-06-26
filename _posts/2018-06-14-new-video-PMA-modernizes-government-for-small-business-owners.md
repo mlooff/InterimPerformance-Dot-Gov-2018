@@ -3,8 +3,6 @@ layout: post
 
 title: "New Video: President's Management Agenda Modernizes Government for Small Business Owners"
 
-rating: "1"
-
 permalink: /2018-06-14-new-video-PMA-modernizes-government-for-small-business-owners.md/
 
 description: This video tells the story of how the Small Business Administration's Lender Match Tool helped Bolt Diesel Services, a Pecos, TX-based small business to access the capital they needed to grow their business.
