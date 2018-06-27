@@ -16,6 +16,9 @@ defaults:
     values:
       layout: navigation
 
+# Social usernames/URLs
+twitter_username: PerformanceGov
+
 
 # Build settings
 markdown: kramdown
