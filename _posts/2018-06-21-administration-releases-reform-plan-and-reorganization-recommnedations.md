@@ -11,7 +11,7 @@ description: Today, the Administration released its plan to reform and reorganiz
 
 excerpt: Today, the Administration released its plan to reform and reorganize the Federal Government, proposing key reforms to make the Federal Government more effectively operate in the 21st Century and better meet the needs of the American people.
 
-image: "/img/blog/update.png"
+image: "/img/blog/reform.jpeg"
 authors:
 - Performance.gov Team
 
@@ -22,4 +22,4 @@ tags:
 
 Today, the Administration released its plan to reform and reorganize the Federal Government, proposing key reforms to make the Federal Government more effectively operate in the 21st Century and better meet the needs of the American people.
 
-<a class="usa-button usa-button-secondary" href="../GovReform/">Read the Plan</a>
+<a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/GovReform/">Read the Plan</a>

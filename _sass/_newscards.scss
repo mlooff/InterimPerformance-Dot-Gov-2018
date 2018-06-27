@@ -110,20 +110,16 @@
 
 
 .card-image-bg {
- display: flex;
- background-color: #f1f1f1;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- overflow:hidden;
+  background-color: #f1f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
  }
 
- .card-image-fill {
-   flex-shrink: 0;
-   min-width: 100%;
-   min-height: 100%
-
- }
 
 .card-image-svg svg {
  height: 100%;
