@@ -4,7 +4,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   smarter, leaner, and more effective government.
 baseurl: ''
 url: 'https://www.performance.gov'
-title_image: "{{ site.baseurl }}/img/homepage_images/436043_original.png"
+title_image: "../img/homepage_images/newhero2_v2 JPG.jpg"
+
 
 collections:
   agencies:
