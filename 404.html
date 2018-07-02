@@ -2,30 +2,6 @@
 title: "404 Error"
 layout: navigation
 ---
-<script>
-
-var allposts = [];
-function redirectToCorrectPage() {
-	{% for post in site.posts %}
-		allposts.push("{{ site.url }}{{ post.url }}");
-	{% endfor %}
-	var url = window.location.toString();
-	if (url.slice(-1) === "/") {
-		 url = url.slice(0, -1);
-	}
-	var allpostsUpperCase = allposts.map(function(value) {
-		return value.toUpperCase();
-	});
-	var i = allpostsUpperCase.indexOf(url.toUpperCase());
-	if (i != -1) {
-		console.log(allposts[i]);
-		window.location = allposts[i];
-	}
-}
-window.onload = redirectToCorrectPage;
-
-</script>
-
    <div class="usa-width-one-whole usa-layout-docs-main_content">
      <div class="usa-grid usa-graphic_list-row" id="error_box">
                <div class="usa-media_block-body">
