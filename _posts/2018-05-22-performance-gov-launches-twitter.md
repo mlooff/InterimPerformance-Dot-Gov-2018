@@ -12,7 +12,7 @@ description: Follow us @PerformanceGov for Performance.gov for a window into Fed
 excerpt: Follow us @PerformanceGov for Performance.gov for a window into Federal agencies’ efforts to deliver on their mission, service, and stewardship objectives
 
 #twitter summary
-summary: Follow us @PerformanceGov for Performance.gov for a window into Federal agencies’ efforts to deliver on their mission, service, and stewardship objectives
+twitter-description: Follow us @PerformanceGov for Performance.gov for a window into Federal agencies’ efforts to deliver on their mission, service, and stewardship objectives
 
 image: "/img/blog/twitter-placeholder.jpg"
 
