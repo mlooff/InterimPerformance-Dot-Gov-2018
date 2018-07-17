@@ -1,5 +1,5 @@
 ---
-layout: theme
+layout: tag
 tag: event
 title: Events
 excerpt:

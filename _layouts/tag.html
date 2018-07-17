@@ -1,17 +1,19 @@
 ---
-layout: navigation
+layout: navigation_PMA
 ---
 
 
 <section class="usa-section usa-section-dark usa-graphic_list">
   <div class="usa-grid usa-graphic_list-row">
     <div class="usa-width-one-whole usa-media_block">
-      <a href="{{ site.baseurl }}/performance-news/performance-news.html" style="text-decoration:none;">
+      <a href="{{ site.baseurl }}/news" style="text-decoration:none;">
         <b>&#10094; &nbsp; Back to News</a></b>
       <h1>{{ page.title }}</h1>
       {% assign numberof = page.posts | size %}
       <p>{{ page.excerpt }}</p>
+        {% if page.agency %}
       <a href="{{ site.baseurl }}{{ page.agency }}"><button class="usa-button usa-button-secondary">Learn about the Agency's Strategic Plan</button></a>
+        {% endif %}
   </div>
 </div>
 </section>
