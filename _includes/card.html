@@ -1,3 +1,5 @@
+<!--THIS INCLUDE IS FOR THE RECENT NEWS SECTION ON THE PERFORMANCE-NEWS PAGE-->
+
 {% assign card_link = include.link | prepend: site.baseurl %}
 
 <article class="card">
@@ -22,7 +24,7 @@
       <span class="card-tag-text">Tags:</span><br>
       {% for tag in include.tags %}
       <span class="usa-label">
-        <a href="{{ site.baseurl }}/tags/{{ tag }}/">{{ tag }}</a>
+        <a href="{{ site.baseurl }}/tags/{{ tag}}/">{{ tag }}</a>
       </span>
       {% endfor %}
         </div>

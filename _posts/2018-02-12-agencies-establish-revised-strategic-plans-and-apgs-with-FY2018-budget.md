@@ -11,11 +11,12 @@ excerpt: Federal agencies today published updated Strategic Plans spanning 2018-
 
 image: "/img/homepage_images/newhero1.jpeg"
 authors:
-- Performance.gov Team
+- robert
+- mhz
 
 tags:
-- strategic objectives
-- APG
+- President's Management Agenda
+- APGs
 
 ---
 
