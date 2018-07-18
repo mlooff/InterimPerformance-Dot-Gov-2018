@@ -215,39 +215,13 @@ sub {
 img {
   border: 0;
 }
-/*css for gov redesign download report section
-*/
+
 #border {
   align: center;
   border: 2px solid #ffffff;
   width: 35%;
   height: auto;
 
-}
-
-div.polaroid {
-  background-color: #ffffff;
-  width: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
-  text-align: center;
-  border: 2px solid #ffffff;
-  border-radius: 5px;
-}
-
-
-a.polaroid:visited {
-background-color: #ffffff;
-border: 5px solid #ffffff;
-
-}
-
-a.polaroid:hover {
-background-color: #ffffff;
-
-}
-
-div.container {
-  padding: 6px;
 }
 
 
@@ -728,7 +702,7 @@ body {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
+    width: 30.11389%;
   }
   .usa-width-one-third:last-child {
     margin-right: 0;
@@ -902,7 +876,18 @@ button,
     width: auto;
   }
 }
+/*PMA red button CSS*/
+.usa-button-red {
+  background-color: #cd2026;
+  color: #ffffff;
+  padding: 1.5rem 2.3rem;
+}
 
+.usa-button.usa-button-red:hover {
+  background-color: #981b1e;
+  color: #ffffff;
+
+}
 
 .usa-button.usa-button-red:visited {
   background-color: #cd2026;
@@ -1366,58 +1351,6 @@ button.usa-button-big,
   background-color: transparent;
 }
 
-
-/*PMA red button CSS*/
-.usa-button-red {
-  background-color: #cd2026;
-  color: #205493;
-  padding: 1.5rem 2.3rem;
-}
-
-.usa-button-white {
-  background-color: #ffffff;
-  color: #205493;
-  padding: 1.5rem 2.3rem;
-}
-
-.usa-button.usa-button-red:hover {
-  background-color: #981b1e;
-  color: #ffffff;
-
-}
-
-.usa-button.usa-button-white:hover {
-  background-color: #205493;
-  color: #ffffff;
-
-}
-
-.usa-button..usa-button-red:visited {
-  background-color: #cd2026;
-  color: #ffffff;
-  padding: 1.5rem 2.3rem;
-}
-
-.usa-button..usa-button-white:visited {
-  background-color: #ffffff;
-  color: #205493;
-  padding: 1.5rem 2.3rem;
-}
-
-a.usa-button.usa-button-red:visited {
-  background-color: #cd2026;
-  color: #ffffff;
-  padding: 1.5rem 2.3rem;
-}
-
-a.usa-button.usa-button-white:visited {
-  background-color: #ffffff;
-  color: #205493;
-  padding: 1.5rem 2.3rem;
-}
-
-/*end PMA red button css*/
-
 .usa-embed-container iframe,
 .usa-embed-container object,
 .usa-embed-container embed {
@@ -1785,7 +1718,27 @@ legend {
   border-radius: 0.3rem;
   color: #ffffff;
   font-size: 1.2rem;
-  margin: 0.5rem;
+  margin-right: .5em;
+  padding: 0.3rem
+
+}
+
+.usa-label:first-child  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: .5em;
+  padding: 0.3rem
+
+}
+
+.usa-label:last-child  {
+  background-color: #981b1e;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: .5em;
   padding: 0.3rem
 
 }
@@ -1940,9 +1893,7 @@ a:hover, a:active {
   color: #205493;
 }
 
-a:visited {
-  color: #4c2c92;
-}
+
 
 a:disabled {
   color: #0071bc;
