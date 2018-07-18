@@ -19,4 +19,4 @@ tags:
 
 ---
 
-We're excited to announce the launch of the Performance.gov​ Twitter feed! Follow us at @PerformanceGov to stay up-to-date on how the federal government is better serving the American public. You can see our latest tweets on the left side of this News page under the navigation menu.
+We're excited to announce the launch of the Performance.gov​ Twitter feed! Follow us at [@PerformanceGov](https://twitter.com/performancegov) to stay up-to-date on how the federal government is better serving the American public. You can see our latest tweets on the left side of this News page under the navigation menu.

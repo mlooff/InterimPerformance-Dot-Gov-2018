@@ -14,7 +14,7 @@ authors:
 
 tags:
 - APG
-- CAP Goal
+- CAP goal
 - quarterly update
 
 ---

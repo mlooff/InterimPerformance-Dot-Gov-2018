@@ -216,6 +216,15 @@ img {
   border: 0;
 }
 
+#border {
+  align: center;
+  border: 2px solid #ffffff;
+  width: 35%;
+  height: auto;
+
+}
+
+
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
