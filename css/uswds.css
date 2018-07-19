@@ -4784,10 +4784,15 @@ color: #112e51;
 border-top: 1.6rem solid #aeb0b5;
 }
 
+.usa-section-CAP-noborder {
+background-color: #e4e2e0;
+color: #112e51;
+}
+
 .usa-section-lightblue {
-background-color: #e1f3f8;
+background-color: #ffffff;
 color: #212121;
-border-top: 1.6rem solid #046b99;
+border-top: 1.6rem solid #112e51;
 }
 
 .usa-section-dark-border {
