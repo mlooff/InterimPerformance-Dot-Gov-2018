@@ -6,7 +6,6 @@ baseurl: ''
 url: 'https://www.performance.gov'
 title_image: "../img/homepage_images/newhero2_v2 JPG.jpg"
 
-
 collections:
   agencies:
     output: true
