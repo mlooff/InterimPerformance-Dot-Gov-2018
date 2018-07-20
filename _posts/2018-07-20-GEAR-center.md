@@ -31,6 +31,7 @@ That’s why the Federal Government is pursuing a Government Effectiveness Advan
 Through applied research and live pilot testing, the GEAR Center would connect cutting-edge thinking with real-world challenges government faces in serving Americans in the Digital Age.  This means re-imagining possibilities for how citizens interact with government; rethinking delivery of citizen services and data; reforming core processes like procurement and IT investment; and exploring how to develop, reskill and redeploy the public-sector workforce in creative ways.  The GEAR Center would help government catch up with where private-sector services and capabilities are today and lay the groundwork for where our operations and services need to be in five, 10, or 20 years.  
 
 To get there, we need your help.  Right now, we are engaging the public, academics, experts, and industry to share ideas on how best to accomplish this goal, to learn from models that already exist, and to identify institutions interested in partnering with each other and with the Federal Government to establish the GEAR Center.  
+
 Please join us and learn more about how to make your voice part of the conversation at [www.performance.gov/GEARcenter](www.performance.gov/GEARcenter).  
 
 <hr width="70%" align="left">
