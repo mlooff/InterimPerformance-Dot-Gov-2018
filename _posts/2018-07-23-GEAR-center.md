@@ -7,9 +7,9 @@ rating: "1"
 
 permalink: /2018-07-23-GEAR-center.md/
 
-description: We are looking for ideas, in the form of a Request for Information (RFI), from the public, academics, experts, and industry on how to establish the Government Effectiveness Advanced Research (GEAR) Center, a public-private partnership to improve mission delivery, citizen services, and stewardship of public resources.
+description: We are looking for ideas from the public, academics, experts, and industry on how to establish to improve mission delivery, citizen services, and stewardship of public resources.
 
-excerpt: We are looking for ideas, in the form of a Request for Information (RFI), from the public, academics, experts, and industry on how to establish the Government Effectiveness Advanced Research (GEAR) Center, a public-private partnership to improve mission delivery, citizen services, and stewardship of public resources.
+excerpt: We are looking for ideas from the public, academics, experts, and industry on how to establish to improve mission delivery, citizen services, and stewardship of public resources.
 
 twitter-description: We are looking for ideas from the public, academics, experts, and industry on how to establish to improve mission delivery, citizen services, and stewardship of public resources.
 
