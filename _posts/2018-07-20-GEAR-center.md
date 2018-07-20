@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "GEAR Center"
+title: "GEAR Center Seeks to Bring Bright Minds Together to Solve Government's Biggest Challenges"
 
 permalink: /2018-07-20-GEAR-center.md/
 
