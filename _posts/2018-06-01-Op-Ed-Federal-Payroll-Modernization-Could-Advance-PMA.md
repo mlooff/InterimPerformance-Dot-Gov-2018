@@ -3,8 +3,6 @@ layout: post
 
 title: "Op-Ed: Federal Payroll Modernization Could Advance President's Management Agenda and Cross-Agency Priority Goals"
 
-rating: "1"
-
 permalink: /2018-06-01-Op-Ed-Federal-Payroll-Modernization-Could-Advance-PMA.md/
 
 description: A new op-ed by Beth Angerman explains that the Federal government can cut long-term costs and improve service by modernizing the way it runs payroll.
