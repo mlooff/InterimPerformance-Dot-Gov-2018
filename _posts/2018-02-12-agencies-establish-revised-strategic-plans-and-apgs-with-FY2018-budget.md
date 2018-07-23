@@ -7,6 +7,8 @@ permalink: /2018-02-12-agencies-establish-revised-strategic-plans-and-apgs-with-
 
 description: Federal agencies today published updated Strategic Plans spanning 2018-2022, and established Agency Priority Goals (APGs) to be achieved over the course of 2018-2019.
 
+summary: summary_large_image
+
 excerpt: Federal agencies today published updated Strategic Plans spanning 2018-2022, and established Agency Priority Goals (APGs) to be achieved over the course of 2018-2019.
 
 image: "/img/homepage_images/newhero1.jpeg"

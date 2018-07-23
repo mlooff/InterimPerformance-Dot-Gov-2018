@@ -9,7 +9,7 @@ description: Today Federal agencies released their Q2 progress updates on their 
 
 excerpt: Today Federal agencies released their Q2 progress updates on their current Agency Priority Goals (APG) and Cross-Agency Priority (CAP) Goals.
 
-summary: summary
+summary: summary_large_image
 
 image: "/img/blog/rocket-smaller.jpg"
 

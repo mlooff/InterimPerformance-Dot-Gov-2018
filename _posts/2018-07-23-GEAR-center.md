@@ -9,6 +9,8 @@ rating: "1"
 
 description: We are looking for ideas from the public, academics, experts, and industry on how to establish the Government Effectiveness Advanced Research (GEAR) Center, a public-private partnership to improve mission delivery, citizen services, and stewardship of public resources.
 
+summary: summary_large_image
+
 excerpt: We are looking for ideas from the public, academics, experts, and industry on how to establish the Government Effectiveness Advanced Research (GEAR) Center, a public-private partnership to improve mission delivery, citizen services, and stewardship of public resources.
 
 twitter-description: We are looking for ideas from the public, academics, experts, and industry on how to improve mission delivery, citizen services, and stewardship of public resources.

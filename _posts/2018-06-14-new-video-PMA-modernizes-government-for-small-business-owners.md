@@ -9,6 +9,8 @@ agency: "Small Business Administration"
 
 description: This video tells the story of how the Small Business Administration's Lender Match Tool helped Bolt Diesel Services, a Pecos, TX-based small business to access the capital they needed to grow their business.
 
+summary: summary_large_image
+
 excerpt: The video tells the story of how the Small Business Administration's Lender Match Tool helped Bolt Diesel Services, a Pecos, TX-based small business to access the capital they needed to grow their business.
 
 image: "/img/blog/SBA-video-grab.PNG"
