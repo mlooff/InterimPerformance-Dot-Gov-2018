@@ -9,7 +9,7 @@ description: The adoption of the Technology Business Management (TBM) Framework 
 
 excerpt: The adoption of the Technology Business Management (TBM) Framework will provide more granularity in IT investments based upon an open-source taxonomy broadly accepted across both private and public sector organizations.
 
-image: "/img/blog/TBM.jpeg"
+image: "/img/blog/data-cloud.jpg"
 authors:
 - Margaret M. Weichert, Deputy Director for Management, Office of Management and Budget
 

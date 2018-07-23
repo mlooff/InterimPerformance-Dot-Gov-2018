@@ -4,7 +4,10 @@
 
 
 <div class="container" href="{{ card_link }}">
-  <img class="card-image-featured" src="{{ site.baseurl }}{{ include .image_src }}" \>
+  <img
+  class="card-image-featured"
+  style="width:100%;object-fit:cover;"
+  src="{{ site.baseurl }}{{ include .image_src }}" \>
   <div class="content">
 
         <!--{% if include.agency %}
