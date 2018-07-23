@@ -15,7 +15,7 @@ twitter-description: We are looking for ideas from the public, academics, expert
 
 image: "/img/blog/gear-center-snip.JPG"
 authors:
-- Performance.gov Team
+- the Office of Management and Budget
 
 tags:
 - PMA
