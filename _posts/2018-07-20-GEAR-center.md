@@ -13,7 +13,7 @@ excerpt: We are looking for ideas from the public, academics, experts, and indus
 
 twitter-description: We are looking for ideas from the public, academics, experts, and industry on how to improve mission delivery, citizen services, and stewardship of public resources.
 
-image: "/img/blog/gear-blog.png"
+image: "/img/blog/gear-center-snip.JPG"
 authors:
 - Performance.gov Team
 
