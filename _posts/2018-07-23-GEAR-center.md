@@ -32,4 +32,4 @@ Through applied research and live pilot testing, the GEAR Center would connect t
 
 To get there, we need your help.  Right now, we are engaging the public, academics, experts, and industry to share ideas on how best to accomplish this goal, to learn from examples that already exist, and to identify institutions interested in partnering.
 
-If you have ideas or comments for us, or if you simply want to learn more about the center, please visit: [www.performance.gov/GEARcenter](www.performance.gov/GEARcenter).  
+If you have ideas or comments for us, or if you simply want to learn more about the center, please visit: [www.performance.gov/GEARcenter]({{ site.baseurl }}/GEARcenter).  
