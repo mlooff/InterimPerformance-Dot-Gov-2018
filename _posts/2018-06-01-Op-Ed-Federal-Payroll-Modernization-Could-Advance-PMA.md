@@ -7,6 +7,8 @@ permalink: /2018-06-01-Op-Ed-Federal-Payroll-Modernization-Could-Advance-PMA.md/
 
 description: A new op-ed by Beth Angerman explains that the Federal government can cut long-term costs and improve service by modernizing the way it runs payroll.
 
+summary: summary_large_image
+
 excerpt: A new op-ed by Beth Angerman explains that the Federal government can cut long-term costs and improve service by modernizing the way it runs payroll.
 
 image: "/img/blog/whitehouse_reduced.jpeg"
