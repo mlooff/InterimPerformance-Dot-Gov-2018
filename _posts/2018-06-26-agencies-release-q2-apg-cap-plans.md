@@ -8,7 +8,11 @@ permalink: /2018-06-26-agencies-release-q2-apg-cap-plans.md/
 description: Today Federal agencies released their Q2 progress updates on their current Agency Priority Goals (APG) and Cross-Agency Priority (CAP) Goals.
 
 excerpt: Today Federal agencies released their Q2 progress updates on their current Agency Priority Goals (APG) and Cross-Agency Priority (CAP) Goals.
+
+summary: summary
+
 image: "/img/blog/rocket-smaller.jpg"
+
 authors:
 - Performance.gov Team
 
