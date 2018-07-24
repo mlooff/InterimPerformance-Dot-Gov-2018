@@ -25,22 +25,20 @@ tags:
 - event
 - OMB
 ---
+
 <div class="usa-width-one-whole">
-<section class="usa-section-takeaways">
 <div class="usa-grid">
-<br>
-<h2 style="text-align:center;color:#0071bc;">3 KEY TAKEAWAYS</h2>
-<ol style="color:#0071bc;">
+<section class="usa-section-takeaways">
+<h2 style="text-align:center;">3 KEY TAKEAWAYS</h2>
+<ol>
 <li>By using emerging 21st century technology and capabilities, federal, state, and local financial management is evolving to better serve American taxpayers by improving the service, mission, and stewardship of federal agencies.</li>
 <li>The ultimate success of federal financial management relies on the three key drivers of reform set forth by the President’s Management Agenda:  modern information technology; data, accountability, and transparency; and workforce for the 21st century.</li>
 <li>Cross-Agency Priority Goals do not operate in silos. A group of several Cross-Agency Priority Goals are working in unison to advance federal financial management.</li>
 </ol>
-<br>
-</div>
 </section>
 </div>
-<p>
-<br>The federal government collects more than $3 trillion in tax revenues every year. Americans entrust the government and its employees to use their tax dollars in the best interest of the country and the needs of its people. This makes efficient and effective financial management a vital part of how federal agencies’ serve the American people and protect taxpayers’ interests. Advances in technology and business strategies offer new opportunities for agencies to modernize their approach to federal financial management and maximize the value Americans get from their tax dollars.  This opportunity for transformation is captured in the <a href="../PMA/PMA.html">President’s Management Agenda</a> and the Cross-Agency Priority (CAP) Goals.</p>
+</div>
+<p>The federal government collects more than $3 trillion in tax revenues every year. Americans entrust the government and its employees to use their tax dollars in the best interest of the country and the needs of its people. This makes efficient and effective financial management a vital part of how federal agencies’ serve the American people and protect taxpayers’ interests. Advances in technology and business strategies offer new opportunities for agencies to modernize their approach to federal financial management and maximize the value Americans get from their tax dollars.  This opportunity for transformation is captured in the <a href="../PMA/PMA.html">President’s Management Agenda</a> and the Cross-Agency Priority (CAP) Goals.</p>
 
 <p>Federal financial management experts, including policymakers from the White House Office of Management and Budget (OMB), recently convened at the Association of Government Accountants Professional Development Training conference to share how cross-agency efforts, driven by the CAP goals, are driving innovation and improvement of federal financial management.</p>
 
