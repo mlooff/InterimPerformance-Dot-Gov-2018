@@ -7,6 +7,8 @@ permalink: /2018-07-24-gsa-low-to-high-value-case-study/
 
 rating: "0"
 
+agency: "General Services Administration"
+
 description: GSA's CFO Office is using process automation and other reforms to target over 50,000 annualized hours and shift them to higher-value mission work performed by employees.
 
 summary: summary_large_image
