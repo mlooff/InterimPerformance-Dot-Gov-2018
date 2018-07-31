@@ -7,7 +7,7 @@ rating: "0"
 
 agency: "General Services Administration"
 
-permalink: /2018-07-25-gsa-category-management-success-story.md/
+permalink: /2018-07-31-gsa-category-management-success-story.md/
 
 description: The GSA City Fair Program will save the government about $2.38 Billion next year and showcases progress of the Category Management CAP goal, which is leveraging common contracts and best practices to drive savings and efficiencies.
 
