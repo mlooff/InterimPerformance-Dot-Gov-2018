@@ -3,7 +3,7 @@ layout: post
 
 title: "Reforms in GSA's CFO Office Refocus 50,000 Employee Hours on Higher-Value Mission Work"
 
-permalink: /2018-07-24-gsa-low-to-high-value-case-study/
+permalink: /2018-07-29-gsa-low-to-high-value-case-study/
 
 rating: "0"
 
