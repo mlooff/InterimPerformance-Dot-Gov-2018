@@ -59,7 +59,7 @@ description: How federal agencies are advancing key priorities and serving the A
           <a class="twitter-timeline" data-width="100%" data-height="50rem" data-theme="light" data-link-color="#0071bc" data-border-color="#0071bc" href="https://twitter.com/PerformanceGov" >Tweets by @OMBPress</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br>
       <!--  </div>-->
         </div>
-        {% for project in site.posts %}
+        {% for project in site.posts limit:8 %}
           <div class="usa-width-one-third usa-width-tablet">
             {% include card.html
              image_src=project.image
@@ -75,9 +75,15 @@ description: How federal agencies are advancing key priorities and serving the A
           </div>
         {% endfor %}
       </div>
+      <center>
+      <a class="usa-button usa-button-big" href="older-news.html">Read Older Posts
+      </a>
+    </center>
   </section>
 
-  {% comment %}
-  <!-- {% include themes.html %} themes include for css grid; NOT IE compatible
-  {% include themes-2.html %} themes include for div grid; IE compatible -->
+
+
+{% comment %}
+  {% include themes.html %} themes include for css grid; NOT IE compatible
+  {% include themes-2.html %}
 {% endcomment %}
