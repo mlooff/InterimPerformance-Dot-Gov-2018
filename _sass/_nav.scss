@@ -21,16 +21,16 @@ $usa-nav-width: 22%;
 }
 
 .logo-img {
-  height: 2.8rem;
-  margin-top: .5rem;
+  height: 2rem;
+  margin-top: .8rem;
 
   .usa-header-basic & {
     // Less room on the basic header, so slightly smaller logo
-    height: 3.1rem;
+    height: 2.7rem;
   }
 
   @media screen and (min-width: 951px) {
-    height: 5rem;
+    height: 3rem;
     vertical-align: bottom;
   }
 }
