@@ -1,0 +1,42 @@
+---
+title: "News Archive"
+layout: navigation_PMA
+agency_dir: news
+
+description:
+
+---
+
+    <section class="usa-section usa-section-dark usa-graphic_list">
+      <div class="usa-grid usa-graphic_list-row">
+        <div class="usa-width-one-whole usa-media_block">
+          <a href="{{ site.baseurl }}/news" style="text-decoration:none;">
+
+            <b>&#10094; &nbsp; Back to Recent News</a></b>
+
+          <h1>News Archive</h1>
+          <p></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="usa-section usa-graphic_list">
+    <div class="usa-grid usa-graphic_list-row">
+      <div class="usa-flex usa-flex-wrap">
+        {% for project in site.posts offset:8 %}
+          <div class="usa-width-one-whole usa-width-tablet">
+            {% include archived-card.html
+             image_src=project.image
+             image_alt=project.image_accessibility
+             image_icon=project.image_icon
+             agency=project.agency
+             tagline=project.title
+             date=project.date
+             description=project.excerpt
+             link=project.permalink
+             tags=project.tags
+            %}
+          </div>
+        {% endfor %}
+      </div>
+  </section>
