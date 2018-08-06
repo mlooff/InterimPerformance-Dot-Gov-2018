@@ -30,4 +30,4 @@ Want to learn more about the GEAR Center?  The Government is hosting a GEAR Cent
 
 The conference will be live-streamed and recorded.
 
-<a class="usa-button" target="blank" href="#">Click here to RSVP</a>
+<a class="usa-button" target="blank" href="https://www.eventbrite.com/e/government-effectiveness-advanced-research-gear-center-virtual-conference-registration-48796737355?utm_term=eventurl_text">Click here to RSVP</a>
