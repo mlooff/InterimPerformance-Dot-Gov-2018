@@ -9,7 +9,7 @@ agency: "Office of Management and Budget"
 
 permalink: /2018-08-06-GEAR-center-conference.md/
 
-description: Want to learn more about the GEAR Center? Join us for a conference on 8/23 from 1:3o-3 pm.
+description: Want to learn more about the GEAR Center? Join us for a conference on 8/23 from 1:30-3 pm.
 
 summary: summary_large_image
 
