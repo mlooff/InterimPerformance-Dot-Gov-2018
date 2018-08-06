@@ -5,7 +5,7 @@ title: "NASA Debuts Online Toolkit to Promote Commercial Use of Satellite Data"
 
 rating: "0"
 
-agency: "National Aeronautics and Space Administration"
+agency: "NASA"
 
 permalink: /2018-08-02-nasa-satellite-data.md/
 
