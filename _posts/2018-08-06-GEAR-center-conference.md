@@ -26,8 +26,8 @@ tags:
 
 ---
 
-Want to learn more about the GEAR Center? The Government is hosting a GEAR Center conference on Thursday, August 23 1:30-3:00 pm. The public and any interested parties are invited to participate and to submit advance questions to performance@omb.eop.gov to help inform the Question and Answer period at the conference.
+Want to learn more about the GEAR Center?  The Government is hosting a GEAR Center virtual conference on Thursday, August 23 1:30-3 pm. The public and any interested parties are invited to participate and to submit advance questions to performance@omb.eop.gov to help inform the Question and Answer period at the conference.  Questions will be received until 5 PM ET on the date of the conference. The government will make available written questions and answers on or about 30 days after the event.  The results of conference discussion, in addition to the written responses to this RFI, will be used to determine next steps in establishing the GEAR Center.
 
-Questions will be received until 5 PM ET on the date of the conference. The government will make available written questions and answers on or about 30 days after the event. The results of conference discussion, in addition to the written responses to this RFI, will be used to determine next steps in establishing the GEAR Center.
+The conference will be live-streamed and recorded.
 
-<a class="usa-button" target="blank" href="#">Register Now</a>
+<a class="usa-button" target="blank" href="#">Click here to RSVP</a>
