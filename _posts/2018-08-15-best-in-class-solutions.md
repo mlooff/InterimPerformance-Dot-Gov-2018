@@ -27,7 +27,9 @@ tags:
 
 
 
-With guidance from GSA’s Category Management PMO, BIC Solutions Owners developed Value Proposition Fact Sheets that describes their products or services with highlights about the solution’s benefits including small business participation, customer experiences, cost avoidance and other administrative savings as well as those provisions that can assist agencies in meeting the goals of the President’s Management Agenda. The established goal for FY2018 is to increase the use of BICs to 35% or $20.3 billion. Cost avoidance achieved to date in FY2018 is $5.1 billion. The Value Proposition Fact Sheets have been posted to the Federal and public sides of the Acquisition Gateway on the Best in Class Resource Page under “How Can BIC Meet My Requirements.
+With guidance from GSA’s Category Management PMO, BIC Solutions Owners developed Value Proposition Fact Sheets that describes their products or services with highlights about the solution’s benefits including small business participation, customer experiences, cost avoidance and other administrative savings as well as those provisions that can assist agencies in meeting the goals of the President’s Management Agenda.
+
+The established goal for FY2018 is to increase the use of BICs to 35% or $20.3 billion. Cost avoidance achieved to date in FY2018 is $5.1 billion. The Value Proposition Fact Sheets have been posted to the Federal and public sides of the Acquisition Gateway on the Best in Class Resource Page under “How Can BIC Meet My Requirements.
 
 
 <a class="usa-button" target="blank" href="https://hallways.cap.gsa.gov/app/#/gateway/best-class-bic/21685/how-can-bic-meet-my-requirements">Access the Fact Sheets</a>
