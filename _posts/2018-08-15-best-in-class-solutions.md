@@ -15,7 +15,7 @@ summary: summary_large_image
 
 excerpt: New fact sheets now are available for more than 30 Best-in-Class solutions, highlighting their unique value for agencies.
 
-image: "/img/blog/BIC-blog.png"
+image: "/img/blog/best-in-class-logo.png"
 authors:
 - Performance.gov Team
 
@@ -23,7 +23,6 @@ tags:
 - GSA
 
 ---
-
 
 
 Best-in-Class (BIC) solutions reduce the amount of effort individual buyers spend finding and researching acquisitions solutions. BIC solutions are designated by the Office of Management and Budget (OMB) as governmentwide solutions that:
