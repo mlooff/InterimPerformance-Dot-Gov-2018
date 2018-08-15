@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "New Fact Sheets Show How Best-in-Class Solutions’ Help Agencies Buy Smarter and meet President’s Management Agenda Goals"
+title: "New Fact Sheets Show How Best-in-Class Solutions Help Agencies Buy Smarter and Meet President’s Management Agenda Goals"
 
 rating: "0"
 
@@ -9,7 +9,7 @@ agency:
 
 permalink: /2018-08-15-best-in-class-Solutions.md/
 
-description: New fact sheets now are available for more than 30 Best-in-Class solutions, highlighting their unique value for agencies.
+description: New fact sheets are available for more than 30 Best-in-Class solutions, highlighting their unique value for agencies.
 
 summary: summary_large_image
 
@@ -25,11 +25,11 @@ tags:
 ---
 
 
-Best-in-Class (BIC) solutions reduce the amount of effort individual buyers spend finding and researching acquisitions solutions. BIC solutions are designated by the Office of Management and Budget (OMB) as governmentwide solutions that:
-- Allows acquisition experts to take advantage of pre-vetted, governmentwide contract solutions;
-- Supports a governmentwide migration to solutions that are mature and market-proven;
-- Assists in the optimization of spend, within the governmentwide category management framework; and
-- Increases the transactional data available for agency level and governmentwide analysis of buying behavior.
+Best-in-Class (BIC) solutions reduce the amount of effort individual buyers spend finding and researching acquisitions solutions. BIC solutions are designated by the Office of Management and Budget (OMB) as government-wide solutions that:
+- Allow acquisition experts to take advantage of pre-vetted, government-wide contract solutions;
+- Support a government-wide migration to solutions that are mature and market-proven;
+- Assist in the optimization of spending, within the government-wide category management framework; and
+- Increase the transactional data available for agency level and government-wide analysis of buying behavior.
 
 With guidance from GSA’s Category Management Program Management Office, BIC Solutions Owners developed Value Proposition Fact Sheets that describe their products or services with highlights about the solution’s benefits including small business participation, customer experiences, cost avoidance and other administrative savings as well as those provisions that can assist agencies in meeting the goals of the President’s Management Agenda.
 
