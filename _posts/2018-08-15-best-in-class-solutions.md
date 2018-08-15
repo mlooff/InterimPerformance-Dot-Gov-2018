@@ -1,11 +1,11 @@
 ---
 layout: post
 
-title: "Learn More About Best-in-Class Solutions’ Benefits!"
+title: "New Fact Sheets Show How Best-in-Class Solutions’ Help Agencies Buy Smarter and meet President’s Management Agenda Goals"
 
 rating: "0"
 
-agency: "General services Administration"
+agency:
 
 permalink: /2018-08-15-best-in-class-Solutions.md/
 
@@ -26,10 +26,15 @@ tags:
 
 
 
+Best-in-Class (BIC) solutions reduce the amount of effort individual buyers spend finding and researching acquisitions solutions. BIC solutions are designated by the Office of Management and Budget (OMB) as governmentwide solutions that:
+- Allows acquisition experts to take advantage of pre-vetted, governmentwide contract solutions;
+- Supports a governmentwide migration to solutions that are mature and market-proven;
+- Assists in the optimization of spend, within the governmentwide category management framework; and
+- Increases the transactional data available for agency level and governmentwide analysis of buying behavior.
 
-With guidance from GSA’s Category Management PMO, BIC Solutions Owners developed Value Proposition Fact Sheets that describes their products or services with highlights about the solution’s benefits including small business participation, customer experiences, cost avoidance and other administrative savings as well as those provisions that can assist agencies in meeting the goals of the President’s Management Agenda.
+With guidance from GSA’s Category Management Program Management Office, BIC Solutions Owners developed Value Proposition Fact Sheets that describe their products or services with highlights about the solution’s benefits including small business participation, customer experiences, cost avoidance and other administrative savings as well as those provisions that can assist agencies in meeting the goals of the President’s Management Agenda.
 
-The established goal for FY2018 is to increase the use of BICs to 35% or $20.3 billion. Cost avoidance achieved to date in FY2018 is $5.1 billion. The Value Proposition Fact Sheets have been posted to the Federal and public sides of the Acquisition Gateway on the Best in Class Resource Page under “How Can BIC Meet My Requirements.
+The established goal for FY2018 is to increase the use of BICs to 35% or $20.3 billion. In FY2018, BIC solutions have already saved $5.1 billion. The Value Proposition Fact Sheets are available on the Federal and public sides of the Acquisition Gateway on the Best in Class Resource Page under “How Can BIC Meet My Requirements.”
 
 
 <a class="usa-button" target="blank" href="https://hallways.cap.gsa.gov/app/#/gateway/best-class-bic/21685/how-can-bic-meet-my-requirements">Access the Fact Sheets</a>
