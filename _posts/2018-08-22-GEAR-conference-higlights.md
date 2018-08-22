@@ -15,7 +15,7 @@ summary: summary_large_image
 
 excerpt: Read highlights from the GEAR conference and Watch a full recording of the live stream.
 
-image: "/img/blog/######"
+image: "/img/blog/gear-blog-recap.png"
 authors:
 - Performance.gov Team
 
