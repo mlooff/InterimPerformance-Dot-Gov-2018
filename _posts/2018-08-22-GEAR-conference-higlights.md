@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: "GEAR Center Conference Highlights"
+title: "OMB Host Virtual GEAR Center Conference"
 
 rating: "0"
 
