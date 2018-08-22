@@ -3,7 +3,7 @@ layout: post
 
 title: "GEAR Center Conference Highlights"
 
-rating: "1"
+rating: "0"
 
 agency: "Office of Management and Budget"
 
@@ -26,12 +26,14 @@ tags:
 
 ---
 
-The Government Effectiveness Advanced Research (GEAR) Center Conference, hosted August 23 from 1:30 - 2:30 pm, featured remarks from Office of Management and Budget (OMB) Deputy Director for Management Margaret Weichert and a panel of OMB staff members Mark Bussow and Eliana Zavala.
+The Government Effectiveness Advanced Research (GEAR) Center Conference, hosted August 23 from 1:30 - 2:30 pm, featured remarks from Office of Management and Budget (OMB) Deputy Director for Management Margaret Weichert and staff members Mark Bussow and Eliana Zavala.
 
 Released with the Administration's <i>Reform Plan and Reorganization Recommendations</i>, the GEAR Center envisions an enterprise-wide capability that works with researchers, academics, non-profits, private industry, and interested State and local governments to look at the long-term strategic needs of the Government as a holistic enterprise. Today's conference offered stakeholders the opportunity to learn about the mission and goals of the GEAR Center and to ask questions about the recently released request for information (RFI).
 
 <div class="testimonial-blockquote">
-When it comes to operating and serving the public in the 21st century, Government has fallen behind the curve—and it’s already 2018. The GEAR center will connect government needs and mission with the best research and thinking to effectively serve the public and operate in a modern context." - Margaret Weichert
+When it comes to operating and serving the public in the 21st century, Government has fallen behind the curve—and it’s already 2018. The GEAR center will connect government needs and mission with the best research and thinking to effectively serve the public and operate in a modern context." - Margaret Weichert, GEAR Center Conference <a href="https://www.performance.gov/PMA/PMA.html"></a>
+
+
 </div>
 
 The conference offered answers to specific GEAR center questions including more information about the RFI, funding for the GEAR Center, and how the success of the GEAR Center will be measured.
