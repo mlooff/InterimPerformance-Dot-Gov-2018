@@ -40,4 +40,11 @@ The conference offered answers to specific GEAR center questions including more 
 
 Learn more about the GEAR Center [here](https://www.performance.gov/GEARcenter/index.html) or watch a recording of the virtual conference below.
 
-INSERT VIDEO
+<div class="usa-width-one-whole usa-media_block">
+<div class="usa-media_block-body">
+    <div class="videoWrapper">
+  <div style="float: center; width: 0px; height: 0px; padding-left: 0px;"></div>
+<div style="float: center; clear: right"><iframe width="560" height="315" src="https://www.youtube.com/embed/i5fUVcmMz_0" frameborder="5" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+</div>
+</div>
+</div>
