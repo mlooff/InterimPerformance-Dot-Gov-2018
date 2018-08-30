@@ -28,10 +28,10 @@ tags:
 
 Representatives from industry, academia, and federal, state, and local governments convened for the Government Effectiveness Advanced Research (GEAR) Center Virtual Conference on August 23. At the event, Margaret Weichert, Deputy Director for Management at the White House Office of Management and Budget (OMB), shared the vision for the GEAR Center and addressed questions from the stakeholders who are helping to shape it.
 
-Released with the Administration's <i>Reform Plan and Reorganization Recommendations</i>, the GEAR Center envisions an enterprise-wide capability that works with researchers, academics, non-profits, private industry, and interested state and local governments to look at the long-term strategic needs of the government as a holistic enterprise.
+Introduced with the Administration's [Reform Plan and Reorganization Recommendations]({{  site.baseurl  }}/GovReform/index.html), the GEAR Center envisions an enterprise-wide capability that works with researchers, academics, non-profits, private industry, and interested state and local governments to look at the long-term strategic needs of the government as a holistic enterprise.
 
 <div class="testimonial-blockquote">
-It's critical that as we face the challenges of governing and the mission that we have in the 21st century for our government that we engage the best ideas from both within the Washington corridor and from the private sector and the academic realm to inform how we innovate and how we bring best in class solutions to government service. That's really at the heart of what we're trying to do here." - Margaret Weichert, Deputy Director for Management, White House Office of Management and Budget <a href="https://www.performance.gov/PMA/PMA.html"></a>
+It's critical that as we face the challenges of governing and the mission that we have in the 21st century for our government that we engage the best ideas from both within the Washington corridor and from the private sector and the academic realm to inform how we innovate and how we bring best in class solutions to government service. That's really at the heart of what we're trying to do here." - Margaret Weichert, Deputy Director for Management, White House Office of Management and Budget
 
 
 </div>
