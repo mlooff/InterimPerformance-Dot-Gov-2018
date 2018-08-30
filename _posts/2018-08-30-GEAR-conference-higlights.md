@@ -46,4 +46,4 @@ Watch a live recording of the event:
 </div>
 </div>
 <br>
-<a class="usa-button" href="/GEARcenter/index.html">Learn more about the GEAR Center</a>
+<a class="usa-button" href="../GEARcenter/index.html">Learn more about the GEAR Center</a>
