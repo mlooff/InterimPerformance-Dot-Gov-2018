@@ -131,3 +131,37 @@
   font-weight: normal;
 
 }
+
+.grid-post {
+ position: relative;
+ display: grid;
+ grid-gap: 10px;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ margin-right: 7rem;
+ margin-left: 7rem;
+ padding: 2% 0;
+
+}
+
+@media screen and (min-width: 800px) {
+ .grid-post {
+   margin-left: auto ;
+   margin-right: auto ;
+   padding: 0 0;
+
+ }
+
+}
+
+#post-white-grid {
+ background: #ffffff;
+ color: #112e51;
+ font-size: 1.5rem;
+ text-align: center;
+ vertical-align: middle;
+ margin: 6px;
+ height: 100px;
+ padding: 2px;
+
+
+}
