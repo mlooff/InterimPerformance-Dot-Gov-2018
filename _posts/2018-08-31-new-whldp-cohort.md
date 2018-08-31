@@ -32,7 +32,7 @@ Margaret Weichert, who serves as Deputy Director for Management at the Office of
 
 This year’s cohort includes a broad cross-section of fellows with a rich set of experiences that will enable them to  share best practices and expertise, solve problems collaboratively, and tackle multi-agency initiatives.
 
-<center><b>WHLDP welcomes the following members to its 2019 cohort:</b></center>
+<center><h3>WHLDP welcomes the following members to its 2019 cohort:</h3></center>
 <div class="grid-post">
   <div id="post-white-grid"><b>Mr. Anselm Beach</b><br><i>Director, Diversity and EEO</i><br>U.S. Department of Homeland Security</div>
   <div id="post-white-grid"><b>Ms. Michelle Dorsey</b><br><i>Chief of Radiology, Phoenix VA Health Care System</i><br>U.S. Department of Veterans Affairs</div>
