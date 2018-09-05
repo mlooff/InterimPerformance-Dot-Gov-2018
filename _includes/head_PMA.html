@@ -21,7 +21,7 @@
 
 {% if page.image %}
 <meta name="twitter:card"  content="{{ page.summary }}">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+<meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
 {% else %}
 <meta name="twitter:card"  content="summary">
 <meta name="twitter:image:src" content="{{ site.url }}/img/performance-gov-twitter.png?'.uniqid().'">
@@ -29,18 +29,10 @@
 <!-- end of Twitter cards -->
 <!--other social media sharing: Facebook and LinkedIn-->
 <meta property="og:title" content="{{ page.title }}">
-{% if page.description %}
 <meta property="og:description" content="{{ page.description }}">
-{% else %}
-<meta property="og:description" content="{{ site.description }}">
-{% endif }
-{% if page.image %}
 <meta property="og:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta property="og:image" content="{{ site.url }}/img/performance-gov-twitter.png?'.uniqid().'">
-{% endif %}
 <meta property="og:url" content="{{ page.url }}">
-wa<!--end of Facebook and LinkedIn-->
+<!--end of Facebook and LinkedIn-->
 <!-- We participate in the US government's analytics
 <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
 <!-- Performance.gov 2018 -->

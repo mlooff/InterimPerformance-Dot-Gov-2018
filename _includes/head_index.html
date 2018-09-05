@@ -30,16 +30,8 @@
 <!-- end of Twitter cards -->
 <!--other social media sharing: Facebook and LinkedIn-->
 <meta property="og:title" content="{{ page.title }}">
-{% if page.description %}
 <meta property="og:description" content="{{ page.description }}">
-{% else %}
-<meta property="og:description" content="{{ site.description }}">
-{% endif }
-{% if page.image %}
 <meta property="og:image" content="{{ site.url }}{{ page.image }}">
-{% else %}
-<meta property="og:image" content="{{ site.url }}/img/performance-gov-twitter.png?'.uniqid().'">
-{% endif %}
 <meta property="og:url" content="{{ page.url }}">
 <!--end of Facebook and LinkedIn-->
 <!-- We participate in the US government's analytics
