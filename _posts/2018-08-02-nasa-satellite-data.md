@@ -5,9 +5,9 @@ title: "NASA Debuts Online Toolkit to Promote Commercial Use of Satellite Data"
 
 rating: "0"
 
-agency: "National Aeronautics and Space Administration"
+agency: "NASA"
 
-permalink: /2018-07-30-nasa-satellite-data.md/
+permalink: /2018-08-02-nasa-satellite-data.md/
 
 description: Data, Accountability and Transparency is a key driver of the President's Management Agenda. NASA is advancing this priority through a new online resource that promotes commercial use of remote-sensing data.
 

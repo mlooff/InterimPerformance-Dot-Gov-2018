@@ -3213,7 +3213,7 @@ li.usa-footer-primary-content:last-child {
   }
 }
 
-.usa-social_link, .usa-link-facebook, .usa-link-twitter, .usa-link-youtube, .usa-link-rss {
+.usa-social_link, .usa-link-facebook, .usa-link-twitter, .usa-link-youtube, .usa-link-rss, .usa-link-mail {
   margin: 2.5rem 1rem 1.5rem 0;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3227,13 +3227,13 @@ li.usa-footer-primary-content:last-child {
 }
 
 @media screen and (min-width: 600px) {
-  .usa-social_link, .usa-link-facebook, .usa-link-twitter, .usa-link-youtube, .usa-link-rss {
+  .usa-social_link, .usa-link-facebook, .usa-link-twitter, .usa-link-youtube, .usa-link-rss, .usa-link-mail {
     margin: 0 0 0 1rem;
     left: 1.2rem;
   }
 }
 
-.usa-social_link span, .usa-link-facebook span, .usa-link-twitter span, .usa-link-youtube span, .usa-link-rss span {
+.usa-social_link span, .usa-link-facebook span, .usa-link-twitter span, .usa-link-youtube span, .usa-link-rss span, .usa-link-mail span {
   position: absolute;
   left: -999em;
 }
@@ -3256,6 +3256,11 @@ li.usa-footer-primary-content:last-child {
 .usa-link-rss {
   background-image: url("../img/social-icons/png/rss25.png");
   background-image: url("../img/social-icons/svg/rss25.svg");
+}
+
+.usa-link-mail {
+  background-image: url("../img/social-icons/png/mail.png");
+  background-image: url("../img/social-icons/svg/mail.svg");
 }
 
 form a {
