@@ -1,6 +1,7 @@
 <!--HEAD FOR THE HOMEPAGE ONLY. DO NOT USE FOR OTHER PAGES-->
 
-<link rel="shortcut icon" href="img/favicons/performance-gov-favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <meta name"hello" content="hello world" />
 <meta content="text/html; charset=UTF-8" name="Content-Type" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +28,13 @@
 <meta name="twitter:image:src" content="{{ site.url }}/img/performance-gov-twitter.png?'.uniqid().'">
 {% endif %}
 <!-- end of Twitter cards -->
+<!--other social media sharing: Facebook and LinkedIn-->
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+<meta property="og:url" content="{{ page.url }}">
+<!--end of Facebook and LinkedIn-->
+<!-- We participate in the US government's analytics
 <!-- We participate in the US government's analytics program. See the data at analytics.usa.gov. -->
 <!-- Performance.gov 2018 -->
 <script async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA" id="_fed_an_ua_tag"></script>
