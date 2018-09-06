@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   smarter, leaner, and more effective government.
 baseurl: ''
 url: 'https://www.performance.gov'
+title_image: "../img/homepage_images/newhero2_v2 JPG.jpg"
 
 collections:
   agencies:
@@ -15,6 +16,9 @@ defaults:
       type: agencies
     values:
       layout: navigation
+
+# Social usernames/URLs
+twitter_username: PerformanceGov
 
 
 # Build settings
@@ -30,3 +34,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+repository: GSA/InterimPerformance-Dot-Gov-2018.github.io
+
+plugins:
+  - jekyll-redirect-from
